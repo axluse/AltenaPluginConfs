@@ -212,12 +212,12 @@ loot:
       item: 276
       amount: 1
       durability: 2
-      name: "&fThe Excalibur"
-      lore1: "&7King Author's sword."
+      name: "&fエクスカリバー"
+      lore1: "&7アーサー王の剣"
       enchantments: 
         1:
           enchantment: DAMAGE_ALL
-          level: 5
+          level: 10
         2:
           enchantment: DURABILITY
           level: 5
@@ -228,8 +228,8 @@ loot:
       item: 277
       amount: 1
       durability: 10
-      name: "&7Backhoe"
-      lore1: "&8Digs too fast!"
+      name: "&7整地王のツール"
+      lore1: "&8整地？私の得意分野だ"
       enchantments: 
         1:
           enchantment: DIG_SPEED 
@@ -241,8 +241,8 @@ loot:
       item: 278
       amount: 1
       durability: 15
-      name: "&fSilky"
-      lore1: "&7Silkier than milk!"
+      name: "&fシルキーぃ"
+      lore1: "&7絹より牛乳！"
       enchantments: 
         1:
           enchantment: SILK_TOUCH
@@ -254,8 +254,8 @@ loot:
       item: 279
       amount: 1
       durability: 250
-      name: "&cCanadian Axe"
-      lore1: "&fChops way to fast!"
+      name: "&cカナダ人によるカナダ人のための斧"
+      lore1: "&fハハハッ"
       enchantments: 
         1:
           enchantment: DAMAGE_UNDEAD
@@ -270,7 +270,7 @@ loot:
       item: 283
       amount: 1
       durability: 1
-      name: "&6Butter Knife"
+      name: "&6バターナイフ"
       lore1: "&eCan only cut butter..."
       enchantments: 
         1:
@@ -283,7 +283,7 @@ loot:
       item: 284
       amount: 1
       durability: 5
-      name: "&6Golden Spoon"
+      name: "&6金の匙"
       lore1: "&eUse with caution."
       enchantments: 
         1:
@@ -296,7 +296,7 @@ loot:
       item: 285
       amount: 1
       durability: 25
-      name: "&7Drill"
+      name: "&7ドリル"
       lore1: "&8Drillin through dirt!"
       enchantments: 
         1:
@@ -306,8 +306,8 @@ loot:
       item: 286
       amount: 1
       durability: 8
-      name: "&cAmerican &fAxe"
-      lore1: "&1Digs fast too..."
+      name: "&cアッフリカーン&fっアックス"
+      lore1: "&1ﾝﾂｸｼｨｱｯｸｽ"
       enchantments: 
         1:
           enchantment: DIG_SPEED
@@ -319,7 +319,7 @@ loot:
       item: 292
       amount: 1
       durability: 5
-      name: "&fQuarts Hoe"
+      name: "&fクォーツホークス"
       lore1: "&yBetter than iron!"
       enchantments: 
         1:
@@ -329,7 +329,7 @@ loot:
       item: 293
       amount: 1
       durability: 10
-      name: "Magic Hoe"
+      name: "マジックホークス"
       lore1: "Forged by God."
       enchantments: 
         1:
@@ -339,8 +339,8 @@ loot:
       item: 299
       amount: 1
       durability: 50
-      name: "&4Old Shirt"
-      lore1: "&4Still good!"
+      name: "&4古着"
+      lore1: "&4古着は正義！"
       enchantments: 
         1:
           enchantment: PROTECTION_FIRE
@@ -355,7 +355,7 @@ loot:
       item: 302
       amount: 1
       durability: 30
-      name: "&9Water Helmet"
+      name: "&9ウォーターヘルメット"
       lore1: "&1Go in the sea!"
       enchantments: 
         1:
@@ -368,7 +368,7 @@ loot:
       item: 303
       amount: 1
       durability: 30
-      name: "&2Creeper Gear"
+      name: "&2クリーパーギア"
       lore1: "&aPart 2"
       enchantments: 
         1:
@@ -381,8 +381,8 @@ loot:
       item: 304
       amount: 1
       durability: 50
-      name: "Thorny Pants"
-      lore1: "Very Sharp..."
+      name: "トニーのパンティ"
+      lore1: "すごくシャープ"
       enchantments: 
         1:
           enchantment: PROTECTION_FIRE
@@ -397,7 +397,7 @@ loot:
       item: 305
       amount: 1
       durability: 10
-      name: "&7Travellers Boots"
+      name: "&7旅用の靴"
       lore1: "&8Go on a journey!"
       enchantments: 
         1:
@@ -410,7 +410,7 @@ loot:
       item: 306
       amount: 1
       durability: 90
-      name: "&7Rusty Iron Helm"
+      name: "&7ラスティーアイアンヘルム"
       lore1: "&8Rusted but still good."
       enchantments: 
         1:
@@ -423,7 +423,7 @@ loot:
       item: 307
       amount: 1
       durability: 50
-      name: "&cArchers Vest"
+      name: "&cアーチャーベスト"
       lore1: "&4Take an arrow to the knee!"
       enchantments: 
         1:
@@ -433,7 +433,7 @@ loot:
       item: 308
       amount: 1
       durability: 20
-      name: "Firemen Pants"
+      name: "消防士のパンティ"
       lore1: "Take 'em to a fire!"
       enchantments: 
         1:
@@ -446,7 +446,7 @@ loot:
       item: 309
       amount: 1
       durability: 10
-      name: "Fall Far Boots"
+      name: "KU TSU SHI TA"
       lore1: "Mark 1"
       enchantments: 
         1:
@@ -459,7 +459,7 @@ loot:
       item: 314
       amount: 1
       durability: 12
-      name: "&9Fish Hat"
+      name: "&9魚頭"
       lore1: "&1Be the fish."
       enchantments: 
         1:
@@ -475,7 +475,7 @@ loot:
       item: 315
       amount: 1
       durability: 80
-      name: "&9Fish Body"
+      name: "&9魚体"
       lore1: "&1Be the fish."
       enchantments: 
         1:
@@ -488,7 +488,7 @@ loot:
       item: 316
       amount: 1
       durability: 60
-      name: "&9Fish Legs"
+      name: "&9魚パンティ"
       lore1: "&1Be the fish."
       enchantments: 
         1:
@@ -504,7 +504,7 @@ loot:
       item: 317
       amount: 1
       durability: 40
-      name: "&9Fish Feet"
+      name: "&9魚ブーツ"
       lore1: "&1Be the fish."
       enchantments: 
         1:
@@ -520,7 +520,7 @@ loot:
       item: 310
       amount: 1
       durability: 22
-      name: "&3Drowned Helm"
+      name: "&3溺死専用ヘルメット"
       lore1: "&3From the Drowned Gods watery halls."
       enchantments: 
         1:
@@ -536,7 +536,7 @@ loot:
       item: 311
       amount: 1
       durability: 10
-      name: "&3Drowned Plate"
+      name: "&3溺死専用ボディ"
       lore1: "&3From the Drowned Gods watery halls."
       enchantments: 
         1:
@@ -549,7 +549,7 @@ loot:
       item: 312
       amount: 1
       durability: 3
-      name: "&3Drowned Leggings"
+      name: "&3溺死専用レッグス"
       lore1: "&3From the Drowned Gods watery halls."
       enchantments: 
         1:
@@ -562,7 +562,7 @@ loot:
       item: 313
       amount: 1
       durability: 9
-      name: "&3Drowned Boots"
+      name: "&3溺死ブーツ"
       lore1: "&3From the Drowned Gods watery halls."
       enchantments: 
         1:
@@ -578,21 +578,21 @@ loot:
       item: 322
       amount: 2
       durability: 0
-      name: "&eThors Apple"
+      name: "&eトールの林檎"
       lore1: "&eStolen from Thors own table."
       enchantments:
     35:
       item: 396
       amount: 3
       durability: 0
-      name: "Easter Bunny's Carrot"
+      name: "イースター島の人参"
       lore1: "He will kill to get it back!"
       enchantments:
     36:
       item: 276
       amount: 1
       durability: 11
-      name: "Spider Whacker"
+      name: "スパイダーワッカー"
       lore1: "Whack spiders."
       enchantments: 
         1:
@@ -605,7 +605,7 @@ loot:
       item: 277
       amount: 1
       durability: 10
-      name: "&aGardener's Spade"
+      name: "&aガーデナーズスペード"
       lore1: "&aDig in the garden."
       enchantments: 
         1:
@@ -618,7 +618,7 @@ loot:
       item: 278
       amount: 1
       durability: 19
-      name: "Dwarf's Pick"
+      name: "ドワーフピック"
       lore1: "Diggy diggy hole."
       enchantments: 
         1:
@@ -631,7 +631,7 @@ loot:
       item: 279
       amount: 1
       durability: 30
-      name: "&7Battle Axe"
+      name: "&7バトルアックス"
       lore1: "&8Saxon war axe."
       enchantments: 
         1:
@@ -644,7 +644,7 @@ loot:
       item: 283
       amount: 1
       durability: 10
-      name: "&4Demon Sword"
+      name: "&4デモンズソード"
       lore1: "&cFiery hot!"
       enchantments: 
         1:
@@ -657,7 +657,7 @@ loot:
       item: 284
       amount: 1
       durability: 1
-      name: "&6Disposable Quick Spade"
+      name: "&6クイックスペード"
       lore1: "&eQuick but disposable."
       enchantments: 
         1:
@@ -670,7 +670,7 @@ loot:
       item: 285
       amount: 1
       durability: 50
-      name: "&6Butter Pick"
+      name: "&6バターピック"
       lore1: "&ePractically made from butter."
       enchantments: 
         1:
@@ -683,7 +683,7 @@ loot:
       item: 286
       amount: 1
       durability: 40
-      name: "Slim Axe"
+      name: "スリムアックス"
       lore1: "Small but deadly"
       enchantments: 
         1:
@@ -696,7 +696,7 @@ loot:
       item: 292
       amount: 1
       durability: 50
-      name: "&7Old Hoe"
+      name: "&7オールドホーク"
       lore1: "&8Not much use."
       enchantments: 
         1:
@@ -706,7 +706,7 @@ loot:
       item: 293
       amount: 1
       durability: 10
-      name: "&aGardener's Hoe"
+      name: "&aガーデニングホーク"
       lore1: "&aBe a Gardener"
       enchantments: 
         1:
@@ -716,7 +716,7 @@ loot:
       item: 299
       amount: 1
       durability: 50
-      name: "&4Boiled Leather Shirt"
+      name: "&4ハードボイルドシャツ"
       lore1: "&4Better than nothing."
       enchantments: 
         1:
@@ -732,7 +732,7 @@ loot:
       item: 302
       amount: 1
       durability: 30
-      name: "&7Sharp Hat"
+      name: "&7シャープハット"
       lore1: "&8So sharp..."
       enchantments: 
         1:
@@ -745,7 +745,7 @@ loot:
       item: 303
       amount: 1
       durability: 30
-      name: "&7Sharp Chest"
+      name: "&7シャープチェスト"
       lore1: "&8So sharp..."
       enchantments: 
         1:
@@ -758,7 +758,7 @@ loot:
       item: 304
       amount: 1
       durability: 50
-      name: "&4Traveller's Pants"
+      name: "&4旅人の臭いパンティ"
       lore1: "&4Worn but still good."
       enchantments: 
         1:
@@ -768,7 +768,7 @@ loot:
       item: 305
       amount: 1
       durability: 10
-      name: "Strong Boots"
+      name: "この靴、強いらしい"
       lore1: "So strong!"
       enchantments: 
         1:
@@ -781,7 +781,7 @@ loot:
       item: 306
       amount: 1
       durability: 30
-      name: "Cast Iron Helm"
+      name: "キャストヘルム"
       lore1: "Its Iron but cast."
       enchantments: 
         1:
@@ -794,7 +794,7 @@ loot:
       item: 307
       amount: 1
       durability: 15
-      name: "&7Spiked Chestplate"
+      name: "&7スパッキーチェスト"
       lore1: "&8Nothing can survive this."
       enchantments: 
         1:
@@ -804,7 +804,7 @@ loot:
       item: 308
       amount: 1
       durability: 10
-      name: "&cArchers Pants"
+      name: "&cアーチャーズパンティ"
       lore1: "&4Stops 'em arrows."
       enchantments: 
         1:
@@ -817,7 +817,7 @@ loot:
       item: 309
       amount: 1
       durability: 5
-      name: "Stiletto Heels"
+      name: "ステレオヘルス"
       lore1: "Don't walk one me!"
       enchantments: 
         1:
@@ -830,7 +830,7 @@ loot:
       item: 314
       amount: 1
       durability: 2
-      name: "&0Death Mask"
+      name: "&0デスマスク"
       lore1: "&8Breath death itself!"
       enchantments: 
         1:
@@ -846,7 +846,7 @@ loot:
       item: 315
       amount: 1
       durability: 8
-      name: "&6Kings Breastplate"
+      name: "&6キングスブレストハート"
       lore1: "&eOnly for kings,"
       lore2: "&eThose of noble birth,"
       lore3: "&eNot you..."
@@ -867,7 +867,7 @@ loot:
       item: 312
       amount: 1
       durability: 16
-      name: "&cArchers Pants MK 2"
+      name: "&cアーチャーズパンティ改"
       lore1: "&4Even better than MK 1!"
       enchantments: 
         1:
@@ -893,7 +893,7 @@ loot:
       item: 310
       amount: 1
       durability: 22
-      name: "&bMermen Helm"
+      name: "&bマムーヘルム"
       lore1: "&bDon't drown!"
       enchantments: 
         1:
@@ -909,7 +909,7 @@ loot:
       item: 311
       amount: 1
       durability: 16
-      name: "&cArchers Vest MK2"
+      name: "&cアーチャーズベストMk2"
       lore1: "&4Also has spikes!"
       enchantments: 
         1:
@@ -922,7 +922,7 @@ loot:
       item: 261
       amount: 1
       durability: 30
-      name: "&2Robinhood's Bow"
+      name: "&2ロビンズボウ"
       lore1: "&4The Legend Lives!"
       enchantments: 
         1:
@@ -944,7 +944,7 @@ loot:
       item: 261
       amount: 1
       durability: 20
-      name: "&eBrave Flame Bow"
+      name: "&eブレイブフレアボウ"
       lore1: "&cBurnt may a village."
       enchantments: 
         1:
@@ -960,7 +960,7 @@ loot:
       item: 261
       amount: 1
       durability: 100
-      name: "&6Squaw Flame Bow"
+      name: "&6スクイズボウ"
       lore1: "&4Cooked many a pig!"
       enchantments: 
         1:
@@ -973,7 +973,7 @@ loot:
       item: 261
       amount: 1
       durability: 0
-      name: "&cArchers Bow"
+      name: "&cアーチャーズボウ"
       lore1: "&4Time to shoot!"
       enchantments: 
         1:
@@ -989,15 +989,15 @@ loot:
       item: 322
       amount: 1
       durability: 1
-      name: "&6God Apple"
-      lore1: "&6Not eaten my mortals!"
-      lore2: "&6And never can be!"
+      name: "&6神の林檎"
+      lore1: "&6人の林檎を食べるなんて"
+      lore2: "&6超最低な人間ね！"
 
     66:
       item: 397
       amount: 1
       durability: 4
-      name: "&2Creeper Gear"
+      name: "&2クリーパーギア"
       lore1: "&2Part 1"
       enchantments: 
         1:
@@ -1007,7 +1007,7 @@ loot:
       item: 397
       amount: 1
       durability: 2
-      name: "&2Zombie Gear"
+      name: "&2ゾンビギア"
       lore1: "&2Part 1"
       enchantments: 
         1:
@@ -1016,35 +1016,35 @@ loot:
     67:
       item: 399
       amount: 1
-      name: "&4Nether Star"
+      name: "&4ネザースター"
       lore1: "&0From the depths of the Nether!"
 
     68:
       item: 373
       amount: 8
       potion: POISON
-      name: "&aPoison Potion"
+      name: "&a毒ポーション"
       lore1: "&2Very deadly."
 
     69:
       item: 373
       amount: 6
       potion: INVISIBILITY
-      name: "&fInvisibility Potion"
+      name: "&f透明化ポーション"
       lore1: "&7From nowhere?"
 
     70:
       item: 373
       amount: 5
       potion: HEAL
-      name: "&dLife Potion"
+      name: "&d回復ポーション"
       lore1: "&5Not many left on earth."
 
     71:
       item: 306
       amount: 1
       durability: 10
-      name: "&3Eliminator's Helmet"
+      name: "&3エリミネーターヘルム"
       lore1: "&eOnly for the best!"
       enchantments: 
         1:
@@ -1063,7 +1063,7 @@ loot:
       item: 311
       amount: 1
       durability: 10
-      name: "&3Eliminator's Chestplate"
+      name: "&3エリミネーターチェスト"
       lore1: "&eYou have to be awesome!"
       enchantments: 
         1:
@@ -1079,7 +1079,7 @@ loot:
       item: 308
       amount: 1
       durability: 10
-      name: "&3Eliminator's Pants"
+      name: "&3エリミネーターボトム"
       lore1: "&eThe most epic!"
       enchantments: 
         1:
@@ -1095,7 +1095,7 @@ loot:
       item: 309
       amount: 1
       durability: 10
-      name: "&3Eliminator's Boots"
+      name: "&3エリミネーターブーツ"
       lore1: "&eThat much more cool!"
       enchantments: 
         1:
@@ -1113,7 +1113,7 @@ loot:
     75:
       item: 382
       amount: 1
-      name: "&6Hunger Charm"
+      name: "&6ハンガーチャーム"
       lore1: "&7Hunger no more"
     76:
       item: 267
@@ -1130,7 +1130,7 @@ loot:
     77:
       item: 280
       amount: 1
-      name: "&4Vampire Stake"
+      name: "&4バンパイアストライク"
       lore1: "&cHeals you when used"
       enchantments: 
         1:
@@ -1139,44 +1139,44 @@ loot:
     78:
       item: 414
       amount: 1
-      name: "&7Bunny Charm"
+      name: "&7バニーチャーム"
       lore1: "&8Jump Higher"
     79:
       item: 397
       amount: 1
       durability: 1
-      name: "&7Wither Charm"
+      name: "&7ウィザーチャーム"
       lore1: "&8Wither all ye fight!"
     80:
       item: 402
       amount: 1
-      name: "&7Cloak Charm"
+      name: "&7クロックチャーム"
       lore1: "&8They will see you not"
     81:
       item: 352
       amount: 1
-      name: "&cWeakness Charm"
+      name: "&cウィークネスチャーム"
       lore1: "&4Weaken your foes"
     82:
       item: 410
       amount: 1
-      name: "&bAqua Charm"
+      name: "&bアクアチャーム"
       lore1: "&3Become the fish..."
     83:
       item: 409
       amount: 1
-      name: "&bGuardian Tooth"
+      name: "&bガーディアンの歯"
       lore1: "&3It can only make"
       lore2: "&3you stronger!"
     84:
       item: 19
       amount: 1
       durability: 1
-      name: "&eSoggy Sponge"
+      name: "&eぬるぬるスポンジ"
     85:
       item: 443
       amount: 1
-      name: "&4Beetle Wings"
+      name: "&4蜂の羽"
       enchantments: 
         1:
           enchantment: PROTECTION_ENVIRONMENTAL
@@ -1188,10 +1188,10 @@ loot:
       item: 276
       amount: 1
       name: 
-      - "&c&lNether Sword"
-      - "&c&lWither Sword"
-      - "&c&lGhast Sword"
-      - "&c&lMagma Sword"
+      - "&c&lネザーソード"
+      - "&c&lウィザーソード"
+      - "&c&lガストソード"
+      - "&c&lマグマソード"
       enchantments: 
         1:
           enchantment: DAMAGE_ALL
@@ -1228,17 +1228,17 @@ loot:
     87:
       item: 437
       amount: 1
-      name: "&e&lAngel Soul"
+      name: "&e&lエンジェリックソウル"
       lore1: "&6Bottled for your convenience"
     88:
       item: 435
       amount: 1
-      name: "&6Gold Coins"
+      name: "&6ゴールドコイン"
       lore1: "&7They bring you luck"
     89:
       item: 267
       amount: 1
-      name: "&f&lSky Sword"
+      name: "&f&lスカイソード"
       enchantments: 
         1:
           enchantment: DURABILITY
@@ -1255,7 +1255,7 @@ loot:
       item: 442
       amount: 1
       durability: 0
-      name: "&7&lShield of Power"
+      name: "&7&lパワードシールド"
       colour: YELLOW
       patterns:
       - ==: Pattern
@@ -1268,7 +1268,7 @@ loot:
       item: 276
       amount: 1
       durability: 90
-      name: "&c&lDemon Blade"
+      name: "&c&lデーモンブレード"
       lore1: "&4Forged in the depths of the nether!"
       enchantments: 
         1:
@@ -1280,7 +1280,7 @@ loot:
     92:
       item: 353
       amount: 1
-      name: "&fSugar of Ianite"
+      name: "&fイアナイトの砂糖"
       lore1: "&8Gives you the speed of Ianite."
       enchantments: 
         1:
@@ -1289,7 +1289,7 @@ loot:
     93:
       item: 449
       amount: 1
-      name: "&4Totem of Death"
+      name: "&死のトーテム"
       enchantments: 
         1:
           enchantment: THORNS
@@ -1297,7 +1297,7 @@ loot:
     94:
       item: 449
       amount: 1
-      name: "&eTotem of Life"
+      name: "&e命のトーテム"
       enchantments: 
         1:
           enchantment: DURABILITY

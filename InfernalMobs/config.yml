@@ -11,7 +11,7 @@ configVersion: "1.11"
 #nameTagsName and bossBarsName have these special tags: <mobLevel> = the amount of powers the boss has.
 #<abilities> = A list of about 3-5 (whatever can fit) names of abilities the boss has.
 #<mobName> = Name of the mob, so if the mob is a creeper the mobName will be "Creeper".
-chance: 100
+chance: 55
 #mobChances:
 #  Ghast: 150
 #levelChance:
@@ -50,10 +50,16 @@ bossBarSettings:
 #    Creeper:
 #      color: "GREEN"
 #      style: "SEGMENTED_6"
-#  perLevel:
-#    5:
-#      color: "GREEN"
-#      style: "SEGMENTED_6"
+  perLevel:
+    5:
+      color: "RED"
+      style: "SEGMENTED_6"
+    6:
+      color: "GREEN"
+      style: "SEGMENTED_6"
+    7:
+      color: "WHITE"
+      style: "SEGMENTED_6"
 enableScoreBoard: true
 showHealthOnScoreBoard: true
 effectAllPlayerAttacks: true
@@ -67,15 +73,15 @@ deathMessages:
 - '&cplayer&c''s weapon &ckilled an mob&c!'
 - '&cAn mob &cwas killed by player &cusing a weapon&c!'
 enableSpawnMessages: true
-spawnMessageRadius: 64
+spawnMessageRadius: 32
 spawnMessages:
-- '&cインファーナルモブ（強化敵対モンスター）が近くに出現している'
-- '&c見失った...'
-- '&c凶悪な敵の足音が聞こえてくる'
-- '&c何かが近づいてきている！'
-- '&cすぐそこにいる！'
+- '&c [Infernal]インファーナルモブの出現を察知しました。'
+- '&c [Infernal]インファーナルモブイベントが近くで発生しています。'
+- '&c [Infernal]強化モンスターは炎を纏い近づいています。'
+- '&c [Infernal]インファーナルモブが発生中'
+- '&c [Infernal]近くに強化モンスターを発見'
 enabledworlds:
-- <all>
+- world
 enabledmobs:
 - ELDER_GUARDIAN
 - WITHER_SKELETON
@@ -261,15 +267,15 @@ disabledBabyMobs:
 #xpMultiplier is what the normal xp a mob drops will be multiplied by.
 #healthByDistance makes mobs HP go up as you go further from the world spawn.
 #Every addDistance blocks the mobs will get healthToAdd times how far they are HP.
-minpowers: 3
-maxpowers: 7
+minpowers: 5
+maxpowers: 10
 healthMultiplier: 4
 healthByPower: false
 healthByDistance: false
 powerByDistance: false
 healthToAdd: 5
 powerToAdd: 1
-xpMultiplier: 80
+xpMultiplier: 180
 addDistance: 200
 enableDrops: true
 dropChance: 1
