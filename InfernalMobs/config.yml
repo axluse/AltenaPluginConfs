@@ -145,7 +145,7 @@ poisonous: true
 armoured: true
 blinding: true
 withering: true
-tosser: true
+tosser: false
 thief: false
 quicksand: true
 bullwark: true
@@ -158,7 +158,7 @@ ghastly: true
 lifesteal: true
 sprint: true
 storm: true
-webber: true
+webber: false
 vengeance: true
 weakness: true
 berserk: true
