@@ -1,0 +1,2235 @@
+manaOnCastChance: 50
+knowledgeMsg: '&6魔法実績: &8<name>&7の実績を解除した!'
+startingMana: 10
+enablePVPSpells: false
+bindingPowderName: §4バインドパウダー
+manaBar:
+  enable: true
+  text: '&1&lマナ: &5&l[<bar>&5&l] &1&l<amount>'
+  symbol: ┃
+  fullColor: '&d'
+  emptyColor: '&7'
+bookOfKnowledge:
+  name: §a§l魔法実績
+  recipe:
+  - 0, 347, 0
+  - 0, 340, 0
+  - 0, 0, 0
+bookOfSpells:
+  name: §a§l魔導書
+  recipe:
+  - 0, 264, 0
+  - 0, 340, 0
+  - 0, 0, 0
+bookOfDrops:
+  author: Notch
+  name: §c§l調合書
+  recipe:
+  - 0, 341, 0
+  - 0, 340, 0
+  - 0, 0, 0
+spellBook:
+  name: §nj§l呪文書
+  chance: 50
+  drops:
+  - WITHER
+  - ENDER_DRAGON
+  - ELDER_GUARDIAN
+staffs:
+  '1':
+    item: 280
+    slots: 3
+    name: '&6エアーズロッド'
+    altarLevel: 1
+    recipe:
+      '2':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §f風のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 280
+        amount: 1
+        durability: 0
+      '6':
+        item: 280
+        amount: 1
+        durability: 0
+  '2':
+    item: 280
+    slots: 3
+    name: '&6ジェミニスターロッド'
+    altarLevel: 1
+    recipe:
+      '2':
+        item: 378
+        amount: 1
+        durability: 0
+        name: §c火のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 280
+        amount: 1
+        durability: 0
+      '6':
+        item: 280
+        amount: 1
+        durability: 0
+  '3':
+    item: 280
+    slots: 3
+    name: '&6アルケインロッド'
+    altarLevel: 1
+    recipe:
+      '2':
+        item: 402
+        amount: 1
+        durability: 0
+        name: §8地のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 280
+        amount: 1
+        durability: 0
+      '6':
+        item: 280
+        amount: 1
+        durability: 0
+  '4':
+    item: 280
+    slots: 3
+    name: '&6クルセイダーロッド'
+    altarLevel: 1
+    recipe:
+      '2':
+        item: 337
+        amount: 1
+        durability: 0
+        name: §9水のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 280
+        amount: 1
+        durability: 0
+      '6':
+        item: 280
+        amount: 1
+        durability: 0
+  '5':
+    item: 280
+    slots: 6
+    name: '&6天界ノ杖'
+    altarLevel: 2
+    recipe:
+      '2':
+        item: 368
+        amount: 1
+        durability: 0
+        name: §5エンダーキャップ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 280
+        amount: 1
+        durability: 0
+      '6':
+        item: 280
+        amount: 1
+        durability: 0
+  '6':
+    item: 280
+    slots: 9
+    name: '&6上級魔術素材'
+    altarLevel: 3
+    recipe:
+      '2':
+        item: 399
+        amount: 1
+        durability: 0
+        name: §6ネザーキャップ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 280
+        amount: 1
+        durability: 0
+      '6':
+        item: 280
+        amount: 1
+        durability: 0
+staffCaps:
+  '1':
+    item: 368
+    name: §5エンダーキャップ
+    altarLevel: 2
+    recipe:
+      '1':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §f風のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '3':
+        item: 337
+        amount: 1
+        durability: 0
+        name: §9水のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 368
+        amount: 1
+        durability: 0
+      '5':
+        item: 378
+        amount: 1
+        durability: 0
+        name: §c火のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '7':
+        item: 402
+        amount: 1
+        durability: 0
+        name: §8地のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+  '2':
+    item: 399
+    name: §6ネザーキャップ
+    altarLevel: 3
+    recipe:
+      '1':
+        item: 402
+        amount: 1
+        durability: 0
+        name: §8地のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '3':
+        item: 378
+        amount: 1
+        durability: 0
+        name: §c火のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 399
+        amount: 1
+        durability: 0
+      '5':
+        item: 337
+        amount: 1
+        durability: 0
+        name: §9水のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '7':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §f風のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+arcaneScroll:
+  name: §6白の書
+  recipe:
+  - 0, 280, 0
+  - 339, 339, 339
+  - 0, 280, 0
+knowledge:
+  interact:
+    '49:0':
+      name: ハードスタッフ
+      mana: 2
+    '56:0':
+      name: 日の石
+      mana: 4
+    '7:0':
+      name: 未だ破れぬ
+      mana: 6
+    '154:0':
+      name: 盗賊の道
+      mana: 2
+    '174:0':
+      name: 雪の嬢王
+      mana: 4
+    '118:0':
+      name: 静寂な力
+      mana: 4
+    '102:0':
+      name: 透視！
+      mana: 2
+    '80:0':
+      name: 綿毛のように
+      mana: 2
+  item:
+    '76:0':
+      name: 力の結晶
+      mana: 2
+    '385:0':
+      name: 火炎石
+      mana: 2
+    '322:1':
+      name: 神のご加護
+      mana: 4
+    '373:0':
+      name: 回復
+      mana: 2
+    '89:0':
+      name: 光を
+      mana: 2
+    '370:0':
+      name: 敵涙
+      mana: 2
+    '397:4':
+      name: クリーパー解剖学
+      mana: 8
+    '397:1':
+      name: 悪い奴
+      mana: 5
+    '173:0':
+      name: 悪魔の誘い
+      mana: 2
+    '375:0':
+      name: 毒
+      mana: 4
+    '381:0':
+      name: 瞳術
+      mana: 3
+    '329:0':
+      name: スタントマン
+      mana: 4
+    '372:0':
+      name: 魔法の香り
+      mana: 5
+    '340:0':
+      name: 保存術
+      mana: 3
+    '23:0':
+      name: ランチャー！
+      mana: 3
+    '106:0':
+      name: 自然力学
+      mana: 2
+    '272:0':
+      name: 凍石
+      mana: 1
+    '326:0':
+      name: 濡らせ！
+      mana: 1
+    '437:0':
+      name: ドラゴンの息
+      mana: 5
+mobDrops:
+  zombie:
+    '0':
+      chance: 10
+      item: 331
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+      name: §4バインドパウダー
+  creeper:
+    '0':
+      chance: 20
+      item: 351
+      durability: 2
+      name: §2クリーパーの心臓
+    '1':
+      chance: 5
+      item: 353
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+      name: §fクリーパーのいちもつ
+    '2':
+      chance: 5
+      item: 144
+      durability: 4
+  skeleton:
+    '0':
+      chance: 5
+      item: 397
+    '1':
+      chance: 20
+      item: 351
+      durability: 15
+      name: §f骨髄
+  witch:
+    '0':
+      chance: 15
+      item: 373
+      potion: INCREASE_DAMAGE
+      name: §c血龍瓶
+    '1':
+      chance: 5
+      item: 436
+      name: §cドラゴンの血のボウル
+      enchantments:
+        '1':
+          enchantment: THORNS
+          level: 1
+  ghast:
+    '0':
+      chance: 20
+      item: 351
+      durability: 12
+      name: §bエクトプラズム
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+  cave-spider:
+    '0':
+      chance: 10
+      item: 373
+      potion: 毒
+      name: §aクモのベノム
+  bat:
+    '0':
+      chance: 20
+      item: 351
+      durability: 8
+      name: §7コウモリの毛
+    '1':
+      chance: 3
+      item: 332
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+      name: §f風のオーブ
+  blaze:
+    '0':
+      chance: 3
+      item: 378
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+      name: §c火のオーブ
+  enderman:
+    '0':
+      chance: 3
+      item: 402
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+      name: §8地のオーブ
+    '1':
+      chance: 3
+      item: 362
+      name: §5エンダーフラグメント
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+  squid:
+    '0':
+      chance: 3
+      item: 337
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+      name: §9水のオーブ
+  iron-golem:
+    '0':
+      chance: 1
+      item: 351
+      durability: 11
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+      name: §Eの魂
+  villager:
+    '0':
+      chance: 15
+      item: 289
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+      name: §8憎悪の欠片
+spells:
+  ここ掘れワンワン:
+    type: touch
+    description: 1マナ消費：指定したブロックを１マス掘る
+    mana: 1
+    effects:
+      dig: 1
+      digPower: 1
+    splash:
+      radius: 3
+      particalEffect: LARGE_SMOKE:0:5:0.6
+    recipe:
+      '0':
+        item: 3
+        amount: 1
+        durability: 0
+      '1':
+        item: 1
+        amount: 1
+        durability: 0
+      '2':
+        item: 3
+        amount: 1
+        durability: 0
+      '3':
+        item: 1
+        amount: 1
+        durability: 0
+      '4':
+        item: 257
+        amount: 1
+        durability: 0
+      '5':
+        item: 1
+        amount: 1
+        durability: 0
+      '6':
+        item: 3
+        amount: 1
+        durability: 0
+      '7':
+        item: 1
+        amount: 1
+        durability: 0
+      '8':
+        item: 3
+        amount: 1
+        durability: 0
+  ここ掘れワンワン改！:
+    type: touch
+    description: 7マナ消費：触ったブロックから3×3マス掘る
+    mana: 7
+    altarLevel: 1
+    requiredKnowledge:
+    - 未だ破れぬ
+    effects:
+      dig: 3
+      digPower: 1
+    splash:
+      radius: 3
+      particalEffect: LARGE_SMOKE:0:50:3
+    recipe:
+      '0':
+        item: 14
+        amount: 1
+        durability: 0
+      '1':
+        item: 257
+        amount: 1
+        durability: 0
+      '2':
+        item: 15
+        amount: 1
+        durability: 0
+      '3':
+        item: 257
+        amount: 1
+        durability: 0
+      '4':
+        item: 1
+        amount: 1
+        durability: 0
+      '5':
+        item: 257
+        amount: 1
+        durability: 0
+      '6':
+        item: 15
+        amount: 1
+        durability: 0
+      '7':
+        item: 257
+        amount: 1
+        durability: 0
+      '8':
+        item: 14
+        amount: 1
+        durability: 0
+  炎の息吹:
+    type: projectile
+    description: 4マナ消費:前方に炎の玉を発射する
+    projectile: fireBall
+    trailParticalEffect: FLAME:0:5:0.3
+    speed: 2
+    cooldown: 20
+    sound: ENTITY_BLAZE_SHOOT
+    lifeTime: 100
+    mana: 4
+    altarLevel: 1
+    requiredKnowledge:
+    - 日の石
+    - 未だ破れぬ
+    splash:
+      effects:
+        damage: 2
+        potionEffects:
+        - fire:1:100
+      radius: 3
+      particalEffect: FLAME:0:50:4
+      sound: ENTITY_GENERIC_EXPLODE
+      explode: false
+      lightning: false
+      tp: false
+      knockBack: 1
+    recipe:
+      '0':
+        item: 263
+        amount: 1
+        durability: 0
+      '1':
+        item: 263
+        amount: 1
+        durability: 0
+      '2':
+        item: 263
+        amount: 1
+        durability: 0
+      '3':
+        item: 263
+        amount: 1
+        durability: 0
+      '4':
+        item: 385
+        amount: 1
+        durability: 0
+      '5':
+        item: 263
+        amount: 1
+        durability: 0
+      '6':
+        item: 377
+        amount: 1
+        durability: 0
+      '7':
+        item: 377
+        amount: 1
+        durability: 0
+      '8':
+        item: 377
+        amount: 1
+        durability: 0
+  雷撃:
+    type: projectile
+    description: 100マナ消費:禁術のひとつ
+    projectile: beam
+    beamRange: 50
+    cooldown: 400
+    sound: ENTITY_LIGHTNING_THUNDER
+    mana: 100
+    altarLevel: 3
+    requiredKnowledge:
+    - 力の結晶
+    splash:
+      radius: 12
+      effects:
+        damage: 120
+      sound: ENTITY_LIGHTNING_IMPACT
+      particalEffect: CLOUD:0:50:2
+      lightning: true
+      knockBack: 1
+    recipe:
+      '0':
+        item: 348
+        amount: 64
+        durability: 0
+      '1':
+        item: 348
+        amount: 64
+        durability: 0
+      '2':
+        item: 348
+        amount: 64
+        durability: 0
+      '3':
+        item: 332
+        amount: 64
+        durability: 0
+      '4':
+        item: 264
+        amount: 64
+        durability: 0
+      '5':
+        item: 332
+        amount: 64
+        durability: 0
+      '6':
+        item: 264
+        amount: 64
+        durability: 0
+      '7':
+        item: 42
+        amount: 64
+        durability: 0
+      '8':
+        item: 264
+        amount: 64
+        durability: 0
+  テレポート:
+    type: projectile
+    description: 8マナ消費：テレポート
+    projectile: enderpearl
+    trailParticalEffect: ENDER:0:10:1
+    speed: 0
+    lifeTime: 999
+    cooldown: 10
+    sound: ENTITY_WITHER_SHOOT
+    mana: 8
+    altarLevel: 2
+    splash:
+      particalEffect: ENDER:0:100:2
+      sound: ENTITY_ENDERMEN_TELEPORT
+      tp: true
+    recipe:
+      '0':
+        item: 368
+        amount: 1
+        durability: 0
+      '1':
+        item: 368
+        amount: 1
+        durability: 0
+      '2':
+        item: 368
+        amount: 1
+        durability: 0
+      '3':
+        item: 155
+        amount: 1
+        durability: 1
+      '4':
+        item: 403
+        amount: 1
+        durability: 0
+        enchantments:
+          '0':
+            enchantment: ARROW_INFINITE
+            level: 1
+      '5':
+        item: 155
+        amount: 1
+        durability: 1
+      '6':
+        item: 368
+        amount: 1
+        durability: 0
+      '7':
+        item: 368
+        amount: 1
+        durability: 0
+      '8':
+        item: 368
+        amount: 1
+        durability: 0
+  ファイヤーワーク:
+    type: projectile
+    description: 2マナ消費：ロケット花火を瞬時に召喚
+    projectile: item
+    trailParticalEffect: ENDER:0:10:1
+    speed: 0
+    lifeTime: 999
+    cooldown: 10
+    data: 401:0
+    drop: false
+    sound: ENTITY_WITHER_SHOOT
+    mana: 2
+    altarLevel: 2
+    splash:
+      particalEffect: ENDER:0:100:2
+      sound: ENTITY_FIREWORK_BLAST
+      tp: true
+    recipe:
+      '0':
+        item: 401
+        amount: 1
+        durability: 0
+      '1':
+        item: 401
+        amount: 1
+        durability: 0
+      '2':
+        item: 401
+        amount: 1
+        durability: 0
+      '3':
+        item: 263
+        amount: 32
+        durability: 0
+      '4':
+        item: 403
+        amount: 1
+        durability: 0
+        enchantments:
+          '0':
+            enchantment: ARROW_INFINITE
+            level: 1
+      '5':
+        item: 263
+        amount: 32
+        durability: 0
+      '6':
+        item: 401
+        amount: 1
+        durability: 0
+      '7':
+        item: 401
+        amount: 1
+        durability: 0
+      '8':
+        item: 401
+        amount: 1
+        durability: 0
+  鶏召喚:
+    type: projectile
+    description: 8マナ消費：鶏召喚する
+    projectile: block
+    trailParticalEffect: VOID:0:3:1
+    beamRange: 50
+    speed: 0
+    drop: true
+    height: 25
+    data: '145:0'
+    cooldown: 60
+    sound: BLOCK_NOTE_HARP
+    lifeTime: 999
+    mana: 8
+    altarLevel: 2
+    requiredKnowledge:
+    - 神のご加護
+    splash:
+      particalEffect: LARGE_SMOKE:0:10:1
+      radius: 1
+      effects:
+        damage: 10
+    recipe:
+      '0':
+        item: 331
+        amount: 1
+        durability: 0
+      '1':
+        item: 331
+        amount: 1
+        durability: 0
+      '2':
+        item: 331
+        amount: 1
+        durability: 0
+      '3':
+        item: 288
+        amount: 64
+        durability: 0
+      '4':
+        item: 344
+        amount: 16
+        durability: 0
+      '5':
+        item: 288
+        amount: 64
+        durability: 0
+      '6':
+        item: 367
+        amount: 6
+        durability: 0
+      '7':
+        item: 352
+        amount: 10
+        durability: 0
+      '8':
+        item: 367
+        amount: 6
+        durability: 0
+  武装解除:
+    type: projectile
+    description: 15マナ消費:ターゲットのドロップを追加する
+    projectile: enderpearl
+    trailParticalEffect: ENCHANT_CRITS:0:3:0.5
+    cooldown: 100
+    sound: ENTITY_ARROW_SHOOT
+    lifeTime: 999
+    mana: 15
+    altarLevel: 2
+    requiredKnowledge:
+    - 盗賊の道
+    splash:
+      radius: 2
+      particalEffect: ENCHANT_CRITS:0:50:2
+      sound: BLOCK_NOTE_PLING
+      effects:
+        disarm: true
+        potionEffects:
+        - blindness:1:40
+    recipe:
+      '0':
+        item: 257
+        amount: 1
+        durability: 0
+      '1':
+        item: 351
+        amount: 1
+        durability: 15
+        name: §f骨髄
+      '2':
+        item: 258
+        amount: 1
+        durability: 0
+      '3':
+        item: 256
+        amount: 1
+        durability: 0
+      '4':
+        item: 351
+        amount: 1
+        durability: 15
+        name: §f骨髄
+      '5':
+        item: 267
+        amount: 1
+        durability: 0
+      '6':
+        item: 331
+        amount: 1
+        durability: 0
+      '7':
+        item: 154
+        amount: 1
+        durability: 0
+      '8':
+        item: 331
+        amount: 1
+        durability: 0
+  ヒール:
+    type: projectile
+    description: 6マナ消費：体力を回復する
+    projectile: item
+    trailParticalEffect: HEARTS:1:3:0.3
+    data: '351:1'
+    cooldown: 40
+    sound: ITEM_FLINTANDSTEEL_USE
+    lifeTime: 20
+    speed: 1
+    mana: 6
+    altarLevel: 1
+    requiredKnowledge:
+    - 回復
+    splash:
+      radius: 3
+      particalEffect: HEARTS:1:25:2
+      sound: ENTITY_FIREWORK_TWINKLE
+      effects:
+        potionEffects:
+        - heal:1:1
+    recipe:
+      '0':
+        item: 373
+        amount: 1
+        durability: 0
+        potion: HEAL
+      '1':
+        item: 351
+        amount: 1
+        durability: 1
+      '2':
+        item: 373
+        amount: 1
+        durability: 0
+        potion: HEAL
+      '3':
+        item: 351
+        amount: 1
+        durability: 1
+      '4':
+        item: 322
+        amount: 1
+        durability: 0
+      '5':
+        item: 351
+        amount: 1
+        durability: 1
+      '6':
+        item: 373
+        amount: 1
+        durability: 0
+        potion: HEAL
+      '7':
+        item: 351
+        amount: 1
+        durability: 1
+      '8':
+        item: 373
+        amount: 1
+        durability: 0
+        potion: HEAL
+  スケルトン召喚:
+    type: projectile
+    description: 20マナ消費:スケルトンを召喚する
+    projectile: entity
+    beamRange: 50
+    speed: 0
+    drop: true
+    height: 2
+    data: SKELETON
+    cooldown: 120
+    mana: 20
+    altarLevel: 1
+    requiredKnowledge:
+    - 敵涙
+    recipe:
+      '0':
+        item: 352
+        amount: 1
+        durability: 0
+      '1':
+        item: 261
+        amount: 1
+        durability: 0
+      '2':
+        item: 352
+        amount: 1
+        durability: 0
+      '3':
+        item: 352
+        amount: 1
+        durability: 0
+      '4':
+        item: 397
+        amount: 1
+        durability: 0
+      '5':
+        item: 352
+        amount: 1
+        durability: 0
+      '6':
+        item: 352
+        amount: 1
+        durability: 0
+      '7':
+        item: 262
+        amount: 1
+        durability: 0
+      '8':
+        item: 352
+        amount: 1
+        durability: 0
+  フリーズ:
+    type: projectile
+    description: 22マナ消費:対象をフリーズさせる
+    projectile: snowball
+    trailParticalEffect: CLOUD:0:3:0.5
+    cooldown: 100
+    sound: ENTITY_ARROW_SHOOT
+    lifeTime: 999
+    mana: 22
+    altarLevel: 2
+    requiredKnowledge:
+    - 雪の嬢王
+    splash:
+      radius: 2
+      particalEffect: CLOUD:0:50:2
+      sound: BLOCK_GLASS_BREAK
+      effects:
+        potionEffects:
+        - slow:3:100
+    recipe:
+      '0':
+        item: 80
+        amount: 1
+        durability: 0
+      '1':
+        item: 79
+        amount: 1
+        durability: 0
+      '2':
+        item: 80
+        amount: 1
+        durability: 0
+      '3':
+        item: 79
+        amount: 1
+        durability: 0
+      '4':
+        item: 57
+        amount: 1
+        durability: 0
+      '5':
+        item: 79
+        amount: 1
+        durability: 0
+      '6':
+        item: 80
+        amount: 1
+        durability: 0
+      '7':
+        item: 79
+        amount: 1
+        durability: 0
+      '8':
+        item: 80
+        amount: 1
+        durability: 0
+  光の導:
+    type: projectile
+    description: 2マナ消費：松明を召喚する。
+    projectile: block
+    trailParticalEffect: SMOKE:0:1:0.3
+    speed: 1
+    drop: false
+    height: 25
+    data: '50:0'
+    cooldown: 60
+    sound: ENTITY_ARROW_SHOOT
+    lifeTime: 999
+    mana: 2
+    altarLevel: 0
+    requiredKnowledge:
+    - 光を
+    recipe:
+      '0':
+        item: 89
+        amount: 1
+        durability: 0
+      '1':
+        item: 89
+        amount: 1
+        durability: 0
+      '2':
+        item: 89
+        amount: 1
+        durability: 0
+      '3':
+        item: 173
+        amount: 2
+        durability: 0
+      '4':
+        item: 50
+        amount: 8
+        durability: 0
+      '5':
+        item: 173
+        amount: 2
+        durability: 0
+      '6':
+        item: 17
+        amount: 5
+        durability: 0
+      '7':
+        item: 17
+        amount: 5
+        durability: 0
+      '8':
+        item: 17
+        amount: 5
+        durability: 0
+  ファイアー:
+    type: projectile
+    description: 2マナ消費:火の弾丸を打ち込む
+    projectile: beam
+    trailParticalEffect: FLAME:0:5:0.3
+    beamRange: 8
+    cooldown: 20
+    sound: ENTITY_BLAZE_SHOOT
+    mana: 2
+    altarLevel: 0
+    requiredKnowledge:
+    - 日の石
+    effects:
+      potionEffects:
+      - fire:1:100
+    splash:
+      radius: 3
+      particalEffect: FLAME:0:80:3
+      sound: ENTITY_FIREWORK_BLAST
+      effects:
+        damage: 2
+        potionEffects:
+        - fire:1:200
+    recipe:
+      '0':
+        item: 377
+        amount: 2
+        durability: 0
+      '1':
+        item: 262
+        amount: 32
+        durability: 0
+      '2':
+        item: 377
+        amount: 2
+        durability: 0
+      '3':
+        item: 259
+        amount: 1
+        durability: 0
+      '4':
+        item: 377
+        amount: 2
+        durability: 0
+      '5':
+        item: 259
+        amount: 1
+        durability: 0
+      '6':
+        item: 327
+        amount: 1
+        durability: 0
+      '7':
+        item: 327
+        amount: 1
+        durability: 0
+      '8':
+        item: 327
+        amount: 1
+        durability: 0
+  クローク:
+    type: self
+    description: 22マナ消費:30秒間透明になれる。
+    cooldown: 100
+    sound: ENTITY_BLAZE_DEATH
+    mana: 22
+    altarLevel: 0
+    requiredKnowledge:
+    - 神のご加護
+    selfEffects:
+      potionEffects:
+      - INVISIBILITY:1:600
+    splash:
+      particalEffect: CLOUD:0:25:1
+    recipe:
+      '0':
+        item: 351
+        amount: 1
+        durability: 8
+        name: §7コウモリの毛
+      '1':
+        item: 35
+        amount: 1
+        durability: 8
+      '2':
+        item: 351
+        amount: 1
+        durability: 8
+        name: §7コウモリの毛
+      '3':
+        item: 35
+        amount: 1
+        durability: 8
+      '4':
+        item: 373
+        amount: 1
+        durability: 0
+        potion: INVISIBILITY
+      '5':
+        item: 35
+        amount: 1
+        durability: 8
+      '6':
+        item: 373
+        amount: 1
+        durability: 0
+        potion: INVISIBILITY
+      '7':
+        item: 30
+        amount: 1
+        durability: 0
+      '8':
+        item: 373
+        amount: 1
+        durability: 0
+        potion: INVISIBILITY
+  ブラインド:
+    type: projectile
+    description: 8マナ消費:10秒間敵はブラインド状態になる.
+    projectile: item
+    trailParticalEffect: LARGE_SMOKE:0:3:0.3
+    speed: 2
+    data: '402:0'
+    cooldown: 60
+    sound: BLOCK_LEVER_CLICK
+    lifeTime: 40
+    mana: 8
+    altarLevel: 1
+    requiredKnowledge:
+    - 光を
+    - 悪い奴
+    splash:
+      radius: 2
+      particalEffect: LARGE_SMOKE:0:150:2
+      sound: ENTITY_BLAZE_SHOOT
+      fireWork: 0:0:0
+      fireWorkLife: 2
+      effects:
+        potionEffects:
+        - blindness:1:200
+    recipe:
+      '0':
+        item: 381
+        amount: 2
+        durability: 0
+      '1':
+        item: 173
+        amount: 1
+        durability: 0
+      '2':
+        item: 376
+        amount: 2
+        durability: 0
+      '3':
+        item: 173
+        amount: 1
+        durability: 0
+      '4':
+        item: 89
+        amount: 4
+        durability: 0
+      '5':
+        item: 173
+        amount: 1
+        durability: 0
+      '6':
+        item: 376
+        amount: 2
+        durability: 0
+      '7':
+        item: 173
+        amount: 1
+        durability: 0
+      '8':
+        item: 381
+        amount: 2
+        durability: 0
+  ディスペル:
+    type: self
+    description: 10マナ消費:自身にかかっているエフェクトをすべて解除する
+    cooldown: 100
+    sound: ENTITY_ARROW_HIT
+    mana: 10
+    altarLevel: 1
+    requiredKnowledge:
+    - 静寂な力
+    - 回復
+    selfEffects:
+      clearPotionEffects:
+      - poison:1:1
+      - fire:1:5
+      - BLINDNESS:1:1
+      - wither:1:1
+      - slow:1:1
+      - CONFUSION:1:1
+      - HUNGER:1:1
+      - SLOW_DIGGING:1:1
+      - WEAKNESS:1:1
+    recipe:
+      '0':
+        item: 374
+        amount: 3
+        durability: 0
+      '1':
+        item: 326
+        amount: 1
+        durability: 0
+      '2':
+        item: 374
+        amount: 3
+        durability: 0
+      '3':
+        item: 338
+        amount: 8
+        durability: 0
+      '4':
+        item: 130
+        amount: 1
+        durability: 0
+      '5':
+        item: 338
+        amount: 8
+        durability: 0
+      '6':
+        item: 326
+        amount: 1
+        durability: 0
+      '7':
+        item: 22
+        amount: 4
+        durability: 0
+      '8':
+        item: 326
+        amount: 1
+        durability: 0
+  業火:
+    type: projectile
+    description: 25マナ消費:業火を呼び出す
+    projectile: beam
+    trailParticalEffect: FLAME:0:25:1
+    beamRange: 30
+    drop: true
+    height: 25
+    cooldown: 100
+    sound: ENTITY_LIGHTNING_THUNDER
+    mana: 25
+    altarLevel: 3
+    requiredKnowledge:
+    - 神のご加護
+    - 日の石
+    splash:
+      radius: 8
+      particalEffect: FLAME:1:500:0
+      sound: ENTITY_BLAZE_SHOOT
+      fireWork: 255:180:10
+      fireWorkLife: 2
+      velocity: 0:1:0
+      effects:
+        damage: 10
+        potionEffects:
+        - fire:1:200
+        - CONFUSION:1:200
+    recipe:
+      '0':
+        item: 378
+        amount: 4
+        durability: 0
+      '1':
+        item: 327
+        amount: 1
+        durability: 0
+      '2':
+        item: 378
+        amount: 4
+        durability: 0
+      '3':
+        item: 377
+        amount: 4
+        durability: 0
+      '4':
+        item: 373
+        amount: 1
+        potion: INCREASE_DAMAGE
+        name: §c血龍瓶
+      '5':
+        item: 377
+        amount: 4
+        durability: 0
+      '6':
+        item: 377
+        amount: 4
+        durability: 0
+      '7':
+        item: 399
+        amount: 1
+        durability: 0
+      '8':
+        item: 377
+        amount: 4
+        durability: 0
+  毒:
+    type: projectile
+    description: 5マナ消費：毒をかける
+    projectile: beam
+    trailParticalEffect: SLIME:1:5:0.2
+    beamRange: 50
+    cooldown: 30
+    sound: ENTITY_SPIDER_AMBIENT
+    mana: 5
+    altarLevel: 0
+    requiredKnowledge:
+    - 毒
+    splash:
+      radius: 3
+      fireWork: 122:245:111
+      fireWorkLife: 2
+      effects:
+        potionEffects:
+        - poison:1:200
+    recipe:
+      '0':
+        item: 18
+        amount: 2
+        durability: 3
+      '1':
+        item: 18
+        amount: 2
+        durability: 3
+      '2':
+        item: 18
+        amount: 2
+        durability: 3
+      '3':
+        item: 375
+        amount: 1
+        durability: 0
+      '4':
+        item: 373
+        amount: 1
+        potion: POISON
+        name: §aクモのベノム
+      '5':
+        item: 375
+        amount: 1
+        durability: 0
+      '6':
+        item: 375
+        amount: 1
+        durability: 0
+      '7':
+        item: 373
+        amount: 1
+        potion: POISON
+        name: §aクモのベノム
+      '8':
+        item: 375
+        amount: 1
+        durability: 0
+  シールド:
+    type: self
+    description: 20マナ消費：30秒間耐久力が増加する
+    cooldown: 20
+    sound: ENTITY_ITEM_BREAK
+    mana: 20
+    altarLevel: 2
+    requiredKnowledge:
+    - 未だ破れぬ
+    selfEffects:
+      potionEffects:
+      - DAMAGE_RESISTANCE:4:200
+    splash:
+      particalEffect: ENCHANT_CRITS:0:200:2
+    recipe:
+      '0':
+        item: 42
+        amount: 1
+        durability: 0
+      '1':
+        item: 442
+        amount: 1
+        durability: 0
+        colour: BLACK
+      '2':
+        item: 42
+        amount: 1
+        durability: 0
+      '3':
+        item: 42
+        amount: 1
+        durability: 0
+      '4':
+        item: 442
+        amount: 1
+        durability: 0
+        colour: BLACK
+      '5':
+        item: 42
+        amount: 1
+        durability: 0
+      '7':
+        item: 42
+        amount: 1
+        durability: 0
+  アローレイン:
+    type: projectile
+    description: 35マナ消費:空中に幾多の矢を召喚しちりばめる
+    projectile: arrow
+    critical: true
+    projectileCount: 30
+    projectileInterval: 0
+    randomRadius: 8
+    trailParticalEffect: SMOKE:0:1:0
+    beamRange: 50
+    drop: true
+    height: 25
+    sound: ENTITY_LIGHTNING_THUNDER
+    lifeTime: 9999
+    mana: 25
+    altarLevel: 3
+    requiredKnowledge:
+    - ランチャー！
+    splash:
+      radius: 3
+      effects:
+        damage: 25
+    recipe:
+      '0':
+        item: 262
+        amount: 32
+        durability: 0
+      '1':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §f風のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '2':
+        item: 262
+        amount: 32
+        durability: 0
+      '3':
+        item: 262
+        amount: 32
+        durability: 0
+      '4':
+        item: 262
+        amount: 32
+        durability: 0
+      '5':
+        item: 262
+        amount: 32
+        durability: 0
+      '6':
+        item: 326
+        amount: 1
+        durability: 0
+      '7':
+        item: 262
+        amount: 32
+        durability: 0
+      '8':
+        item: 326
+        amount: 1
+        durability: 0
+  バットレイン:
+    type: projectile
+    description: 30マナ消費:業火を持続的に発生させるコウモリを召喚
+    projectile: entity
+    projectileCount: 10
+    projectileInterval: 0
+    randomRadius: 1
+    trailParticalEffect: FLAME:0:3:0.2
+    speed: 3
+    data: bat
+    cooldown: 100
+    sound: ENTITY_ENDERDRAGON_GROWL
+    lifeTime: 80
+    mana: 30
+    altarLevel: 3
+    requiredKnowledge:
+    - ランチャー！
+    - 悪い奴
+    - 日の石
+    selfEffects:
+      potionEffects:
+      - FIRE_RESISTANCE:1:300
+    effects:
+      damage: 2
+      potionEffects:
+      - fire:1:100
+    splash:
+      radius: 1
+      particalEffect: LARGE_SMOKE:0:25:0.5
+      sound: ENTITY_ITEM_PICKUP
+      effects:
+        damage: 18
+        potionEffects:
+        - fire:1:300
+    recipe:
+      '0':
+        item: 351
+        amount: 1
+        durability: 8
+        name: §7コウモリの毛
+      '1':
+        item: 289
+        amount: 1
+        durability: 0
+        name: §8憎悪の欠片
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '2':
+        item: 351
+        amount: 1
+        durability: 8
+        name: §7コウモリの毛
+      '3':
+        item: 377
+        amount: 8
+        durability: 0
+      '4':
+        item: 378
+        amount: 1
+        durability: 0
+        name: §c火のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '5':
+        item: 377
+        amount: 8
+        durability: 0
+      '6':
+        item: 327
+        amount: 1
+        durability: 0
+      '7':
+        item: 351
+        amount: 1
+        durability: 8
+        name: §7コウモリの毛
+      '8':
+        item: 327
+        amount: 1
+        durability: 0
+  ボレーⅠ:
+    type: projectile
+    description: 2マナ消費：ボレーショットを発動
+    projectile: arrow
+    critical: true
+    projectileCount: 4
+    projectileInterval: 0
+    randomRadius: 1
+    trailParticalEffect: ENCHANT_CRITS:0:1:0
+    speed: 2
+    cooldown: 8
+    sound: ENTITY_ARROW_SHOOT
+    lifeTime: 9999
+    mana: 2
+    altarLevel: 0
+    requiredKnowledge:
+    - ランチャー！
+    splash:
+      radius: 1
+      effects:
+        damage: 1
+    recipe:
+      '0':
+        item: 262
+        amount: 4
+        durability: 0
+      '1':
+        item: 262
+        amount: 4
+        durability: 0
+      '2':
+        item: 262
+        amount: 4
+        durability: 0
+      '3':
+        item: 288
+        amount: 1
+        durability: 0
+      '4':
+        item: 33
+        amount: 1
+        durability: 0
+      '5':
+        item: 288
+        amount: 1
+        durability: 0
+      '6':
+        item: 288
+        amount: 1
+        durability: 0
+      '7':
+        item: 173
+        amount: 1
+        durability: 0
+      '8':
+        item: 288
+        amount: 1
+        durability: 0
+  ボレーⅡ:
+    type: projectile
+    description: 4マナ消費：ボレーショットを発動
+    projectile: arrow
+    critical: true
+    projectileCount: 8
+    projectileInterval: 0
+    randomRadius: 1
+    trailParticalEffect: ENCHANT_CRITS:0:1:0
+    speed: 3
+    cooldown: 4
+    sound: ENTITY_ARROW_SHOOT
+    lifeTime: 9999
+    mana: 4
+    altarLevel: 0
+    requiredKnowledge:
+    - ランチャー！
+    splash:
+      radius: 1
+      effects:
+        damage: 3
+    recipe:
+      '0':
+        item: 358
+        amount: 1
+        durability: 264
+        name: §5ボレーⅠ §5Spell
+        lore0: 'Mana: 2'
+      '1':
+        item: 262
+        amount: 4
+        durability: 0
+      '2':
+        item: 262
+        amount: 4
+        durability: 0
+      '3':
+        item: 288
+        amount: 1
+        durability: 0
+      '4':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §f風のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '5':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §f風のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '6':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §f風のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '7':
+        item: 173
+        amount: 1
+        durability: 0
+      '8':
+        item: 288
+        amount: 1
+        durability: 0
+  ボレーⅢ:
+    type: projectile
+    description: 6マナ消費：ボレーショットを発動
+    projectile: arrow
+    critical: true
+    projectileCount: 8
+    projectileInterval: 0
+    randomRadius: 1
+    trailParticalEffect: ENCHANT_CRITS:0:1:0
+    speed: 3
+    cooldown: 2
+    sound: ENTITY_ARROW_SHOOT
+    lifeTime: 9999
+    mana: 6
+    altarLevel: 0
+    requiredKnowledge:
+    - ランチャー！
+    splash:
+      radius: 1
+      effects:
+        damage: 6
+    recipe:
+      '0':
+        item: 358
+        amount: 1
+        durability: 264
+        name: §5ボレーⅠ §5Spell
+        lore0: 'Mana: 2'
+      '1':
+        item: 262
+        amount: 4
+        durability: 0
+      '2':
+        item: 262
+        amount: 4
+        durability: 0
+      '3':
+        item: 288
+        amount: 1
+        durability: 0
+      '4':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §f風のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '5':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §f風のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '6':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §f風のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '7':
+        item: 173
+        amount: 1
+        durability: 0
+      '8':
+        item: 288
+        amount: 1
+        durability: 0
+  矢雨:
+    type: projectile
+    description: 25マナ消費：風神によるボレーショットを発動
+    projectile: arrow
+    critical: true
+    projectileCount: 20
+    projectileInterval: 1
+    randomRadius: 0
+    trailParticalEffect: ENCHANT_CRITS:0:1:0
+    speed: 3
+    cooldown: 60
+    sound: ENTITY_ENDERDRAGON_GROWL
+    lifeTime: 9999
+    mana: 25
+    altarLevel: 0
+    requiredKnowledge:
+    - ランチャー！
+    - 神のご加護
+    - 力の結晶
+    splash:
+      radius: 2
+      effects:
+        damage: 25
+    recipe:
+      '0':
+        item: 358
+        amount: 1
+        durability: 264
+        name: §5ボレーⅠ §5Spell
+        lore0: 'Mana: 2'
+      '1':
+        item: 262
+        amount: 4
+        durability: 0
+      '2':
+        item: 262
+        amount: 4
+        durability: 0
+      '3':
+        item: 288
+        amount: 1
+        durability: 0
+      '4':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §f風のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '5':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §f風のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '6':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §f風のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '7':
+        item: 173
+        amount: 1
+        durability: 0
+      '8':
+        item: 288
+        amount: 1
+        durability: 0
+  ナイトヴィジョン:
+    type: self
+    description: 6マナ消費:暗視能力を手に入れる
+    cooldown: 60
+    sound: ENTITY_BAT_TAKEOFF
+    mana: 6
+    altarLevel: 1
+    requiredKnowledge:
+    - 神のご加護
+    - 力の結晶
+    selfEffects:
+      potionEffects:
+      - NIGHT_VISION:0:600
+    splash:
+      particalEffect: LARGE_SMOKE:0:25:1
+    recipe:
+      '0':
+        item: 381
+        amount: 1
+        durability: 0
+      '1':
+        item: 351
+        amount: 1
+        durability: 8
+        name: §7コウモリの毛
+      '2':
+        item: 381
+        amount: 1
+        durability: 0
+      '3':
+        item: 337
+        amount: 1
+        durability: 0
+        name: §9水のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 373
+        amount: 1
+        potion: NIGHT_VISION
+      '5':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §f風のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '6':
+        item: 373
+        amount: 1
+        potion: NIGHT_VISION
+      '7':
+        item: 368
+        amount: 1
+        durability: 0
+      '8':
+        item: 373
+        amount: 1
+        potion: NIGHT_VISION
+  フレア:
+    type: projectile
+    description: 3マナ消費：フレアを発動できる。
+    projectile: beam
+    beamRange: 120
+    cooldown: 0
+    sound: ENTITY_FIREWORK_LAUNCH
+    mana: 3
+    altarLevel: 1
+    requiredKnowledge:
+    - 力の結晶
+    splash:
+      fireWork: r:r:r
+      fireWorkLife: 99999
+    recipe:
+      '0':
+        item: 339
+        amount: 1
+        durability: 0
+      '1':
+        item: 402
+        amount: 1
+        durability: 0
+      '2':
+        item: 339
+        amount: 1
+        durability: 0
+      '3':
+        item: 339
+        amount: 1
+        durability: 0
+      '4':
+        item: 385
+        amount: 1
+        durability: 0
+      '5':
+        item: 339
+        amount: 1
+        durability: 0
+      '6':
+        item: 351
+        amount: 1
+        durability: 1
+      '7':
+        item: 351
+        amount: 1
+        durability: 14
+      '8':
+        item: 351
+        amount: 1
+        durability: 11
+  ガトリングアロー:
+    type: projectile
+    description: 12マナ消費:幾多の矢でガトリング攻撃を繰り出す
+    projectile: arrow
+    critical: true
+    projectileCount: 5
+    projectileInterval: 1
+    projectileSound: ENTITY_ARROW_SHOOT
+    trailParticalEffect: SMOKE:1:1:2
+    speed: 4
+    cooldown: 10
+    lifeTime: 999
+    mana: 12
+    altarLevel: 2
+    requiredKnowledge:
+    - ランチャー！
+    splash:
+      radius: 1
+      effects:
+        damage: 15
+    recipe:
+      '1':
+        item: 318
+        amount: 8
+        durability: 0
+      '3':
+        item: 262
+        amount: 64
+        durability: 0
+      '4':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §f風のオーブ
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '5':
+        item: 262
+        amount: 64
+        durability: 0
+      '6':
+        item: 33
+        amount: 1
+        durability: 0
+      '7':
+        item: 403
+        amount: 1
+        durability: 0
+        enchantments:
+          '0':
+            enchantment: ARROW_INFINITE
+            level: 1
+      '8':
+        item: 33
+        amount: 1
+        durability: 0
+  レーザー:
+    type: projectile
+    description: 12マナ消費:レーザーを繰り出す
+    projectile: beam
+    projectileCount: 10
+    projectileInterval: 2
+    trailParticalEffect: REDSTONE_DUST:0:1:0
+    beamRange: 25
+    cooldown: 90
+    sound: ENTITY_BLAZE_SHOOT
+    mana: 12
+    altarLevel: 3
+    requiredKnowledge:
+    - 力の結晶
+    - 光を
+    splash:
+      radius: 1
+      particalEffect: REDSTONE_DUST:0:10:1
+      effects:
+        damage: 24
+        potionEffects:
+        - fire:1:100
+    recipe:
+      '0':
+        item: 42
+        amount: 2
+        durability: 0
+      '1':
+        item: 351
+        amount: 1
+        durability: 12
+        name: §bエクトプラズム
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '2':
+        item: 42
+        amount: 2
+        durability: 0
+      '3':
+        item: 42
+        amount: 2
+        durability: 0
+      '4':
+        item: 152
+        amount: 1
+        durability: 0
+      '5':
+        item: 42
+        amount: 2
+        durability: 0
+      '6':
+        item: 264
+        amount: 2
+        durability: 0
+      '7':
+        item: 20
+        amount: 1
+        durability: 0
+      '8':
+        item: 264
+        amount: 2
+        durability: 0

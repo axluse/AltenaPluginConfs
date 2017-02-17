@@ -1,0 +1,23 @@
+update-available: Update is available!
+configuration-reloaded: Configuration reloaded!
+gethp-command-hearts: Hearts
+invalid-player: Invalid player
+no-permission: No permission
+invalid-arguments: Invalid arguments
+help-player: player
+help-number: number
+finished: Finished
+error: ERROR
+usage: USAGE
+statusbar-maximum: HP Max
+players-hp: '''s HP'
+scaled-to: scaled to
+hp-levelled-up: HP LevelUp!
+hp-and-melee-damage-levelled-up: HP and melee damage levelled up
+help-command-reload: Reloads the configuration file
+help-command-gethp: Shows the HP of the targeted player
+help-command-addhp: Adds HP to the targeted player
+help-command-sethp: Sets the HP of the targeted player
+help-command-tmphp: Sets HP temporary
+help-command-addxp: Adds XP to the targeted player
+help-command-version: Shows the version of the plugin

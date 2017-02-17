@@ -1,0 +1,78 @@
+# RPGHealthPlus v1.4.4
+configuration:
+  max-hp: 80
+  starting-hp: 20
+  needed-xp-formula: 180*HP
+  xp-lost-on-death-formula: 60*HP
+  xp-percentage-from-mobspawners: 50
+  hp-display-scale: 1.0
+  enable-names-xp: true
+  minimum-level-to-earn-xp: 0
+  multiply-gained-xp-with-levels: true
+  show-xp-holograms: true
+  xp-holograms-time: 40
+  disable-in-creative: true
+  reset-hp-on-death: false
+  use-hp-based-damage-multiplier: true
+  melee-damage-multiplier: 1.0
+  use-groups-permissions: false
+  heal-after-world-change: false
+  heal-after-level-up: true
+  levelup-particles: true
+  enable-sounds: false
+  check-for-updates: true
+mobs-xp:
+  BAT: 1
+  BLAZE: 6
+  CAVE_SPIDER: 6
+  CHICKEN: 1
+  COW: 1
+  CREEPER: 4
+  DONKEY: 5
+  ELDER_GUARDIAN: 15
+  ENDERMAN: 8
+  ENDERMITE: 2
+  ENDER_DRAGON: 450
+  EVOKER: 35
+  GHAST: 13
+  GIANT: 5
+  GUARDIAN: 10
+  HORSE: 1
+  HUSK: 4
+  IRON_GOLEM: 4
+  LLAMA: 3
+  MAGMA_CUBE: 3
+  MULE: 3
+  MUSHROOM_COW: 1
+  OCELOT: 9
+  PIG: 1
+  PIG_ZOMBIE: 10
+  PLAYER: 10
+  POLAR_BEAR: 5
+  RABBIT: 1
+  SHEEP: 1
+  SHULKER: 6
+  SILVERFISH: 2
+  SKELETON: 3
+  SKELETON_HORSE: 1
+  SLIME: 1
+  SNOWMAN: 1
+  SPIDER: 3
+  SQUID: 8
+  STRAY: 8
+  VEX: 1
+  VILLAGER: 1
+  VINDICATOR: 1
+  WITCH: 6
+  WITHER: 180
+  WITHER_SKELETON: 12
+  WOLF: 1
+  ZOMBIE: 3
+  ZOMBIE_HORSE: 1
+  ZOMBIE_VILLAGER: 3
+names-xp:
+- examplemobname1 = 8
+- examplemobname2 = 6
+nonaffected-worlds:
+- exampleworldname1
+- exampleworldname2

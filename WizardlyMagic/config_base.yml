@@ -1,0 +1,3754 @@
+manaOnCastChance: 3
+knowledgeMsg: '&6Knowledge: &7You have discovered &8<name>&7!'
+startingMana: 10
+enablePVPSpells: false
+bindingPowderName: §4Binding Powder
+manaBar:
+  enable: true
+  text: '&4&lMana: &5&l[<bar>&5&l] &4&l<amount>'
+  symbol: '|'
+  fullColor: '&d'
+  emptyColor: '&7'
+bookOfKnowledge:
+  name: §6§lBook of Knowledge
+  recipe:
+  - 0, 347, 0
+  - 0, 340, 0
+  - 0, 0, 0
+bookOfSpells:
+  name: §5§lBook of Spells
+  recipe:
+  - 0, 264, 0
+  - 0, 340, 0
+  - 0, 0, 0
+bookOfDrops:
+  author: Notch
+  name: §7§lBook of Drops
+  recipe:
+  - 0, 341, 0
+  - 0, 340, 0
+  - 0, 0, 0
+spellBook:
+  name: §5§lSpell Book
+  chance: 50
+  drops:
+  - WITHER
+  - ENDER_DRAGON
+  - ELDER_GUARDIAN
+staffs:
+  '1':
+    item: 280
+    slots: 3
+    name: '&6Staff I'
+    altarLevel: 1
+    recipe:
+      '2':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §fAir Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 280
+        amount: 1
+        durability: 0
+      '6':
+        item: 280
+        amount: 1
+        durability: 0
+  '2':
+    item: 280
+    slots: 3
+    name: '&6Staff I'
+    altarLevel: 1
+    recipe:
+      '2':
+        item: 378
+        amount: 1
+        durability: 0
+        name: §cFire Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 280
+        amount: 1
+        durability: 0
+      '6':
+        item: 280
+        amount: 1
+        durability: 0
+  '3':
+    item: 280
+    slots: 3
+    name: '&6Staff I'
+    altarLevel: 1
+    recipe:
+      '2':
+        item: 402
+        amount: 1
+        durability: 0
+        name: §8Earth Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 280
+        amount: 1
+        durability: 0
+      '6':
+        item: 280
+        amount: 1
+        durability: 0
+  '4':
+    item: 280
+    slots: 3
+    name: '&6Staff I'
+    altarLevel: 1
+    recipe:
+      '2':
+        item: 337
+        amount: 1
+        durability: 0
+        name: §9Water Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 280
+        amount: 1
+        durability: 0
+      '6':
+        item: 280
+        amount: 1
+        durability: 0
+  '5':
+    item: 280
+    slots: 6
+    name: '&6Staff II'
+    altarLevel: 2
+    recipe:
+      '2':
+        item: 368
+        amount: 1
+        durability: 0
+        name: §5Ender Cap
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 280
+        amount: 1
+        durability: 0
+      '6':
+        item: 280
+        amount: 1
+        durability: 0
+  '6':
+    item: 280
+    slots: 9
+    name: '&6Staff III'
+    altarLevel: 3
+    recipe:
+      '2':
+        item: 399
+        amount: 1
+        durability: 0
+        name: §6Nether Cap
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 280
+        amount: 1
+        durability: 0
+      '6':
+        item: 280
+        amount: 1
+        durability: 0
+staffCaps:
+  '1':
+    item: 368
+    name: §5Ender Cap
+    altarLevel: 2
+    recipe:
+      '1':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §fAir Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '3':
+        item: 337
+        amount: 1
+        durability: 0
+        name: §9Water Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 368
+        amount: 1
+        durability: 0
+      '5':
+        item: 378
+        amount: 1
+        durability: 0
+        name: §cFire Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '7':
+        item: 402
+        amount: 1
+        durability: 0
+        name: §8Earth Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+  '2':
+    item: 399
+    name: §6Nether Cap
+    altarLevel: 3
+    recipe:
+      '1':
+        item: 402
+        amount: 1
+        durability: 0
+        name: §8Earth Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '3':
+        item: 378
+        amount: 1
+        durability: 0
+        name: §cFire Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 399
+        amount: 1
+        durability: 0
+      '5':
+        item: 337
+        amount: 1
+        durability: 0
+        name: §9Water Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '7':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §fAir Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+arcaneScroll:
+  name: §6Arcane Scroll
+  recipe:
+  - 0, 280, 0
+  - 339, 339, 339
+  - 0, 280, 0
+knowledge:
+  interact:
+    '49:0':
+      name: Hard Stuff
+      mana: 2
+    '56:0':
+      name: Shiny Rock
+      mana: 4
+    '7:0':
+      name: Unbreakable
+      mana: 6
+    '154:0':
+      name: Thief
+      mana: 2
+    '174:0':
+      name: Ice Cold
+      mana: 4
+    '118:0':
+      name: Contained
+      mana: 4
+    '102:0':
+      name: See Through
+      mana: 2
+    '80:0':
+      name: Fluffy
+      mana: 2
+  item:
+    '76:0':
+      name: Powered
+      mana: 2
+    '385:0':
+      name: Fire Stone
+      mana: 2
+    '322:1':
+      name: Divine Intervention
+      mana: 4
+    '373:0':
+      name: Healing
+      mana: 2
+    '89:0':
+      name: Light
+      mana: 2
+    '370:0':
+      name: Tear of Mob
+      mana: 2
+    '397:4':
+      name: Creeper Anatomy
+      mana: 8
+    '397:1':
+      name: Evil
+      mana: 5
+    '173:0':
+      name: Darkness
+      mana: 2
+    '375:0':
+      name: Poison
+      mana: 4
+    '381:0':
+      name: Sight
+      mana: 3
+    '329:0':
+      name: Rider
+      mana: 4
+    '372:0':
+      name: The Smell Of Magic
+      mana: 5
+    '340:0':
+      name: Saved
+      mana: 3
+    '23:0':
+      name: Launch
+      mana: 3
+    '106:0':
+      name: Nature
+      mana: 2
+    '272:0':
+      name: Stone Cold
+      mana: 1
+    '326:0':
+      name: Wet
+      mana: 1
+    '437:0':
+      name: Dragon's Breath
+      mana: 5
+mobDrops:
+  zombie:
+    '0':
+      chance: 5
+      item: 331
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+      name: §4Binding Powder
+  creeper:
+    '0':
+      chance: 20
+      item: 351
+      durability: 2
+      name: §2Creeper Heart
+    '1':
+      chance: 3
+      item: 353
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+      name: §fPure Good
+    '2':
+      chance: 2
+      item: 144
+      durability: 4
+  skeleton:
+    '0':
+      chance: 5
+      item: 397
+    '1':
+      chance: 10
+      item: 351
+      durability: 15
+      name: §fBone Marrow
+  witch:
+    '0':
+      chance: 15
+      item: 373
+      potion: INCREASE_DAMAGE
+      name: §cJar of Blood
+    '1':
+      chance: 5
+      item: 436
+      name: §cBowl of dragon's blood
+      enchantments:
+        '1':
+          enchantment: THORNS
+          level: 1
+  ghast:
+    '0':
+      chance: 20
+      item: 351
+      durability: 12
+      name: §bEctoplasm
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+  cave-spider:
+    '0':
+      chance: 10
+      item: 373
+      potion: POISON
+      name: §aSpider Venom
+  bat:
+    '0':
+      chance: 20
+      item: 351
+      durability: 8
+      name: §7Bat Wool
+    '1':
+      chance: 5
+      item: 332
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+      name: §fAir Orb
+  blaze:
+    '0':
+      chance: 5
+      item: 378
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+      name: §cFire Orb
+  enderman:
+    '0':
+      chance: 5
+      item: 402
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+      name: §8Earth Orb
+    '1':
+      chance: 3
+      item: 362
+      name: §5Ender Fragments
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+  squid:
+    '0':
+      chance: 5
+      item: 337
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+      name: §9Water Orb
+  iron-golem:
+    '0':
+      chance: 1
+      item: 351
+      durability: 11
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+      name: §eSoul
+  villager:
+    '0':
+      chance: 10
+      item: 289
+      enchantments:
+        '0':
+          enchantment: DAMAGE_ALL
+          level: 1
+      name: §8Pure Evil
+spells:
+  Dig:
+    type: touch
+    description: Instantly digs the block you BLOCK_LEVER_CLICK with iron pick level strength for 1 mana.
+    mana: 1
+    effects:
+      dig: 1
+      digPower: 1
+    splash:
+      radius: 3
+      particalEffect: LARGE_SMOKE:0:5:0.6
+    recipe:
+      '0':
+        item: 3
+        amount: 1
+        durability: 0
+      '1':
+        item: 1
+        amount: 1
+        durability: 0
+      '2':
+        item: 3
+        amount: 1
+        durability: 0
+      '3':
+        item: 1
+        amount: 1
+        durability: 0
+      '4':
+        item: 257
+        amount: 1
+        durability: 0
+      '5':
+        item: 1
+        amount: 1
+        durability: 0
+      '6':
+        item: 3
+        amount: 1
+        durability: 0
+      '7':
+        item: 1
+        amount: 1
+        durability: 0
+      '8':
+        item: 3
+        amount: 1
+        durability: 0
+  Big-Dig:
+    type: touch
+    description: Instantly digs a 9x9 area where you BLOCK_LEVER_CLICK with diamond pick level strength for 7 mana.
+    mana: 7
+    altarLevel: 1
+    requiredKnowledge:
+    - Unbreakable
+    effects:
+      dig: 3
+      digPower: 2
+    splash:
+      radius: 3
+      particalEffect: LARGE_SMOKE:0:50:3
+    recipe:
+      '0':
+        item: 14
+        amount: 1
+        durability: 0
+      '1':
+        item: 257
+        amount: 1
+        durability: 0
+      '2':
+        item: 15
+        amount: 1
+        durability: 0
+      '3':
+        item: 257
+        amount: 1
+        durability: 0
+      '4':
+        item: 1
+        amount: 1
+        durability: 0
+      '5':
+        item: 257
+        amount: 1
+        durability: 0
+      '6':
+        item: 15
+        amount: 1
+        durability: 0
+      '7':
+        item: 257
+        amount: 1
+        durability: 0
+      '8':
+        item: 14
+        amount: 1
+        durability: 0
+  Fire-Ball:
+    type: projectile
+    description: Shoots a fireball for 4 mana.
+    projectile: fireBall
+    trailParticalEffect: FLAME:0:5:0.3
+    speed: 2
+    cooldown: 20
+    sound: ENTITY_BLAZE_SHOOT
+    lifeTime: 100
+    mana: 4
+    altarLevel: 1
+    requiredKnowledge:
+    - Fire Stone
+    - Unbreakable
+    splash:
+      effects:
+        damage: 2
+        potionEffects:
+        - fire:1:100
+      radius: 3
+      particalEffect: FLAME:0:50:4
+      sound: ENTITY_GENERIC_EXPLODE
+      explode: false
+      lightning: false
+      tp: false
+      knockBack: 1
+    recipe:
+      '0':
+        item: 263
+        amount: 1
+        durability: 0
+      '1':
+        item: 263
+        amount: 1
+        durability: 0
+      '2':
+        item: 263
+        amount: 1
+        durability: 0
+      '3':
+        item: 263
+        amount: 1
+        durability: 0
+      '4':
+        item: 385
+        amount: 1
+        durability: 0
+      '5':
+        item: 263
+        amount: 1
+        durability: 0
+      '6':
+        item: 377
+        amount: 1
+        durability: 0
+      '7':
+        item: 377
+        amount: 1
+        durability: 0
+      '8':
+        item: 377
+        amount: 1
+        durability: 0
+  Lightning:
+    type: projectile
+    description: Strikes lightning where your looking for 4 mana.
+    projectile: beam
+    beamRange: 50
+    cooldown: 40
+    sound: ENTITY_LIGHTNING_THUNDER
+    mana: 4
+    altarLevel: 1
+    requiredKnowledge:
+    - Powered
+    splash:
+      radius: 3
+      effects:
+        damage: 6
+      sound: ENTITY_LIGHTNING_IMPACT
+      particalEffect: CLOUD:0:50:2
+      lightning: true
+      knockBack: 1
+    recipe:
+      '0':
+        item: 348
+        amount: 1
+        durability: 0
+      '1':
+        item: 348
+        amount: 1
+        durability: 0
+      '2':
+        item: 348
+        amount: 1
+        durability: 0
+      '3':
+        item: 332
+        amount: 1
+        durability: 0
+      '4':
+        item: 264
+        amount: 1
+        durability: 0
+      '5':
+        item: 332
+        amount: 1
+        durability: 0
+      '6':
+        item: 264
+        amount: 1
+        durability: 0
+      '7':
+        item: 42
+        amount: 1
+        durability: 0
+      '8':
+        item: 264
+        amount: 1
+        durability: 0
+  Ender-Pearl:
+    type: projectile
+    description: Throws an ender pearl for 8 mana, it does not give you damage when you land.
+    projectile: enderpearl
+    trailParticalEffect: ENDER:0:10:1
+    speed: 0
+    lifeTime: 999
+    cooldown: 60
+    sound: ENTITY_WITHER_SHOOT
+    mana: 8
+    altarLevel: 2
+    splash:
+      particalEffect: ENDER:0:100:2
+      sound: ENTITY_ENDERMEN_TELEPORT
+      tp: true
+    recipe:
+      '0':
+        item: 368
+        amount: 1
+        durability: 0
+      '1':
+        item: 368
+        amount: 1
+        durability: 0
+      '2':
+        item: 368
+        amount: 1
+        durability: 0
+      '3':
+        item: 155
+        amount: 1
+        durability: 1
+      '4':
+        item: 403
+        amount: 1
+        durability: 0
+        enchantments:
+          '0':
+            enchantment: ARROW_INFINITE
+            level: 1
+      '5':
+        item: 155
+        amount: 1
+        durability: 1
+      '6':
+        item: 368
+        amount: 1
+        durability: 0
+      '7':
+        item: 368
+        amount: 1
+        durability: 0
+      '8':
+        item: 368
+        amount: 1
+        durability: 0
+  Anvil:
+    type: projectile
+    description: Drops an anvil where you are looking for 8 mana.
+    projectile: block
+    trailParticalEffect: VOID:0:3:1
+    beamRange: 50
+    speed: 0
+    drop: true
+    height: 25
+    data: '145:0'
+    cooldown: 60
+    sound: BLOCK_NOTE_HARP
+    lifeTime: 999
+    mana: 8
+    altarLevel: 2
+    requiredKnowledge:
+    - Divine Intervention
+    splash:
+      particalEffect: LARGE_SMOKE:0:10:1
+      radius: 1
+      effects:
+        damage: 10
+    recipe:
+      '0':
+        item: 331
+        amount: 1
+        durability: 0
+      '1':
+        item: 331
+        amount: 1
+        durability: 0
+      '2':
+        item: 331
+        amount: 1
+        durability: 0
+      '3':
+        item: 145
+        amount: 1
+        durability: 0
+      '4':
+        item: 169
+        amount: 1
+        durability: 0
+      '5':
+        item: 145
+        amount: 1
+        durability: 0
+      '6':
+        item: 145
+        amount: 1
+        durability: 0
+      '7':
+        item: 145
+        amount: 1
+        durability: 0
+      '8':
+        item: 145
+        amount: 1
+        durability: 0
+  Disarm:
+    type: projectile
+    description: Makes the target drop the item they are holding for 15 mana.
+    projectile: enderpearl
+    trailParticalEffect: ENCHANT_CRITS:0:3:0.5
+    cooldown: 100
+    sound: ENTITY_ARROW_SHOOT
+    lifeTime: 999
+    mana: 15
+    altarLevel: 2
+    requiredKnowledge:
+    - Thief
+    splash:
+      radius: 2
+      particalEffect: ENCHANT_CRITS:0:50:2
+      sound: BLOCK_NOTE_PLING
+      effects:
+        disarm: true
+        potionEffects:
+        - blindness:1:40
+    recipe:
+      '0':
+        item: 257
+        amount: 1
+        durability: 0
+      '1':
+        item: 351
+        amount: 1
+        durability: 15
+        name: §fBone Marrow
+      '2':
+        item: 258
+        amount: 1
+        durability: 0
+      '3':
+        item: 256
+        amount: 1
+        durability: 0
+      '4':
+        item: 351
+        amount: 1
+        durability: 15
+        name: §fBone Marrow
+      '5':
+        item: 267
+        amount: 1
+        durability: 0
+      '6':
+        item: 331
+        amount: 1
+        durability: 0
+      '7':
+        item: 154
+        amount: 1
+        durability: 0
+      '8':
+        item: 331
+        amount: 1
+        durability: 0
+  Heal:
+    type: projectile
+    description: Heals anyone in the ENTITY_GENERIC_SPLASH for 6 mana.
+    projectile: item
+    trailParticalEffect: HEARTS:1:3:0.3
+    data: '351:1'
+    cooldown: 40
+    sound: ITEM_FLINTANDSTEEL_USE
+    lifeTime: 20
+    speed: 1
+    mana: 6
+    altarLevel: 1
+    requiredKnowledge:
+    - Healing
+    splash:
+      radius: 3
+      particalEffect: HEARTS:1:25:2
+      sound: ENTITY_FIREWORK_TWINKLE
+      effects:
+        potionEffects:
+        - heal:1:1
+    recipe:
+      '0':
+        item: 373
+        amount: 1
+        durability: 0
+        potion: HEAL
+      '1':
+        item: 351
+        amount: 1
+        durability: 1
+      '2':
+        item: 373
+        amount: 1
+        durability: 0
+        potion: HEAL
+      '3':
+        item: 351
+        amount: 1
+        durability: 1
+      '4':
+        item: 322
+        amount: 1
+        durability: 0
+      '5':
+        item: 351
+        amount: 1
+        durability: 1
+      '6':
+        item: 373
+        amount: 1
+        durability: 0
+        potion: HEAL
+      '7':
+        item: 351
+        amount: 1
+        durability: 1
+      '8':
+        item: 373
+        amount: 1
+        durability: 0
+        potion: HEAL
+  Summon-Skeleton:
+    type: projectile
+    description: Spawns a skeleton where you are looking for 20 mana.
+    projectile: entity
+    beamRange: 50
+    speed: 0
+    drop: true
+    height: 2
+    data: SKELETON
+    cooldown: 100
+    mana: 20
+    altarLevel: 1
+    requiredKnowledge:
+    - Tear of Mob
+    recipe:
+      '0':
+        item: 352
+        amount: 1
+        durability: 0
+      '1':
+        item: 261
+        amount: 1
+        durability: 0
+      '2':
+        item: 352
+        amount: 1
+        durability: 0
+      '3':
+        item: 352
+        amount: 1
+        durability: 0
+      '4':
+        item: 397
+        amount: 1
+        durability: 0
+      '5':
+        item: 352
+        amount: 1
+        durability: 0
+      '6':
+        item: 352
+        amount: 1
+        durability: 0
+      '7':
+        item: 262
+        amount: 1
+        durability: 0
+      '8':
+        item: 352
+        amount: 1
+        durability: 0
+  Freeze:
+    type: projectile
+    description: Freezes the target and makes them slow for 22 mana.
+    projectile: snowball
+    trailParticalEffect: CLOUD:0:3:0.5
+    cooldown: 100
+    sound: ENTITY_ARROW_SHOOT
+    lifeTime: 999
+    mana: 22
+    altarLevel: 2
+    requiredKnowledge:
+    - Ice Cold
+    splash:
+      radius: 2
+      particalEffect: CLOUD:0:50:2
+      sound: BLOCK_GLASS_BREAK
+      effects:
+        potionEffects:
+        - slow:3:100
+    recipe:
+      '0':
+        item: 80
+        amount: 1
+        durability: 0
+      '1':
+        item: 79
+        amount: 1
+        durability: 0
+      '2':
+        item: 80
+        amount: 1
+        durability: 0
+      '3':
+        item: 79
+        amount: 1
+        durability: 0
+      '4':
+        item: 57
+        amount: 1
+        durability: 0
+      '5':
+        item: 79
+        amount: 1
+        durability: 0
+      '6':
+        item: 80
+        amount: 1
+        durability: 0
+      '7':
+        item: 79
+        amount: 1
+        durability: 0
+      '8':
+        item: 80
+        amount: 1
+        durability: 0
+  Torch:
+    type: projectile
+    description: Throws a torch to light the way for 2 mana
+    projectile: block
+    trailParticalEffect: SMOKE:0:1:0.3
+    speed: 1
+    drop: false
+    height: 25
+    data: '50:0'
+    cooldown: 60
+    sound: ENTITY_ARROW_SHOOT
+    lifeTime: 999
+    mana: 2
+    altarLevel: 0
+    requiredKnowledge:
+    - Light
+    recipe:
+      '0':
+        item: 89
+        amount: 1
+        durability: 0
+      '1':
+        item: 89
+        amount: 1
+        durability: 0
+      '2':
+        item: 89
+        amount: 1
+        durability: 0
+      '3':
+        item: 173
+        amount: 2
+        durability: 0
+      '4':
+        item: 50
+        amount: 8
+        durability: 0
+      '5':
+        item: 173
+        amount: 2
+        durability: 0
+      '6':
+        item: 17
+        amount: 5
+        durability: 0
+      '7':
+        item: 17
+        amount: 5
+        durability: 0
+      '8':
+        item: 17
+        amount: 5
+        durability: 0
+  Fire:
+    type: projectile
+    description: Shoots a beam of fire for 2 mana.
+    projectile: beam
+    trailParticalEffect: FLAME:0:5:0.3
+    beamRange: 8
+    cooldown: 20
+    sound: ENTITY_BLAZE_SHOOT
+    mana: 2
+    altarLevel: 0
+    requiredKnowledge:
+    - Fire Stone
+    effects:
+      potionEffects:
+      - fire:1:100
+    splash:
+      radius: 3
+      particalEffect: FLAME:0:80:3
+      sound: ENTITY_FIREWORK_BLAST
+      effects:
+        damage: 2
+        potionEffects:
+        - fire:1:200
+    recipe:
+      '0':
+        item: 377
+        amount: 2
+        durability: 0
+      '1':
+        item: 262
+        amount: 32
+        durability: 0
+      '2':
+        item: 377
+        amount: 2
+        durability: 0
+      '3':
+        item: 259
+        amount: 1
+        durability: 0
+      '4':
+        item: 377
+        amount: 2
+        durability: 0
+      '5':
+        item: 259
+        amount: 1
+        durability: 0
+      '6':
+        item: 327
+        amount: 1
+        durability: 0
+      '7':
+        item: 327
+        amount: 1
+        durability: 0
+      '8':
+        item: 327
+        amount: 1
+        durability: 0
+  Magma:
+    type: projectile
+    description: Spawn lava where you are looking for 5 mana
+    projectile: block
+    beamRange: 8
+    drop: true
+    height: 1
+    data: '11:0'
+    cooldown: 20
+    sound: ENTITY_BLAZE_SHOOT
+    lifeTime: 999
+    mana: 5
+    altarLevel: 1
+    requiredKnowledge:
+    - Hard Stuff
+    recipe:
+      '0':
+        item: 327
+        amount: 1
+        durability: 0
+      '1':
+        item: 327
+        amount: 1
+        durability: 0
+      '2':
+        item: 327
+        amount: 1
+        durability: 0
+      '3':
+        item: 49
+        amount: 3
+        durability: 0
+      '4':
+        item: 49
+        amount: 3
+        durability: 0
+      '5':
+        item: 49
+        amount: 3
+        durability: 0
+      '6':
+        item: 369
+        amount: 1
+        durability: 0
+      '7':
+        item: 87
+        amount: 64
+        durability: 0
+      '8':
+        item: 369
+        amount: 1
+        durability: 0
+  Water:
+    type: projectile
+    description: Spawn water where you are looking for 5 mana
+    projectile: block
+    beamRange: 8
+    drop: true
+    height: 1
+    data: '9:0'
+    cooldown: 20
+    sound: ENTITY_GENERIC_SPLASH
+    lifeTime: 999
+    mana: 5
+    altarLevel: 1
+    requiredKnowledge:
+    - Contained
+    recipe:
+      '0':
+        item: 22
+        amount: 1
+        durability: 0
+      '1':
+        item: 111
+        amount: 1
+        durability: 0
+      '2':
+        item: 22
+        amount: 1
+        durability: 0
+      '3':
+        item: 337
+        amount: 4
+        durability: 0
+      '4':
+        item: 22
+        amount: 1
+        durability: 0
+      '5':
+        item: 337
+        amount: 4
+        durability: 0
+      '6':
+        item: 326
+        amount: 1
+        durability: 0
+      '7':
+        item: 326
+        amount: 1
+        durability: 0
+      '8':
+        item: 326
+        amount: 1
+        durability: 0
+  Equal-Trade:
+    type: touch
+    description: Changes blocks of the type you BLOCK_LEVER_CLICKed to ones you have beside the spell for 6 mana.
+    cooldown: 0
+    sound: ENTITY_FIREWORK_TWINKLE
+    mana: 6
+    altarLevel: 2
+    requiredKnowledge:
+    - Shiny Rock
+    effects:
+      dig: 6
+      digPower: 3
+      digReplace: true
+    recipe:
+      '0':
+        item: 133
+        amount: 1
+        durability: 0
+      '1':
+        item: 266
+        amount: 1
+        durability: 0
+      '2':
+        item: 133
+        amount: 1
+        durability: 0
+      '3':
+        item: 266
+        amount: 1
+        durability: 0
+      '4':
+        item: 54
+        amount: 1
+        durability: 0
+      '5':
+        item: 266
+        amount: 1
+        durability: 0
+      '6':
+        item: 133
+        amount: 1
+        durability: 0
+      '7':
+        item: 278
+        amount: 1
+        durability: 0
+        enchantments:
+          '0':
+            enchantment: DIG_SPEED
+            level: 1
+      '8':
+        item: 133
+        amount: 1
+        durability: 0
+  Cloak:
+    type: self
+    description: Makes you invisible for 30 seconds for 22 mana.
+    cooldown: 100
+    sound: ENTITY_BLAZE_DEATH
+    mana: 22
+    altarLevel: 0
+    requiredKnowledge:
+    - See Through
+    selfEffects:
+      potionEffects:
+      - INVISIBILITY:1:600
+    splash:
+      particalEffect: CLOUD:0:25:1
+    recipe:
+      '0':
+        item: 351
+        amount: 1
+        durability: 8
+        name: §7Bat Wool
+      '1':
+        item: 35
+        amount: 1
+        durability: 8
+      '2':
+        item: 351
+        amount: 1
+        durability: 8
+        name: §7Bat Wool
+      '3':
+        item: 35
+        amount: 1
+        durability: 8
+      '4':
+        item: 373
+        amount: 1
+        durability: 0
+        potion: INVISIBILITY
+      '5':
+        item: 35
+        amount: 1
+        durability: 8
+      '6':
+        item: 373
+        amount: 1
+        durability: 0
+        potion: INVISIBILITY
+      '7':
+        item: 30
+        amount: 1
+        durability: 0
+      '8':
+        item: 373
+        amount: 1
+        durability: 0
+        potion: INVISIBILITY
+  TNT:
+    type: projectile
+    description: Throws a lit TNT for 20 mana.
+    projectile: entity
+    trailParticalEffect: LARGE_SMOKE:0:3:0.3
+    speed: 1
+    data: PRIMED_TNT
+    cooldown: 100
+    sound: ENTITY_TNT_PRIMED
+    lifeTime: 9999
+    mana: 20
+    altarLevel: 2
+    requiredKnowledge:
+    - Creeper Anatomy
+    splash:
+      radius: 3
+      particalEffect: FLAME:0:50:2
+      knockBack: 1
+    recipe:
+      '0':
+        item: 24
+        amount: 1
+        durability: 1
+      '1':
+        item: 259
+        amount: 1
+        durability: 0
+      '2':
+        item: 24
+        amount: 1
+        durability: 1
+      '3':
+        item: 46
+        amount: 2
+        durability: 0
+      '4':
+        item: 351
+        amount: 1
+        durability: 2
+        name: §2Creeper Heart
+      '5':
+        item: 46
+        amount: 2
+        durability: 0
+      '6':
+        item: 24
+        amount: 1
+        durability: 1
+      '7':
+        item: 46
+        amount: 2
+        durability: 0
+      '8':
+        item: 24
+        amount: 1
+        durability: 1
+  Blinding:
+    type: projectile
+    description: Blinds the target for 10 seconds for 8 mana.
+    projectile: item
+    trailParticalEffect: LARGE_SMOKE:0:3:0.3
+    speed: 2
+    data: '402:0'
+    cooldown: 60
+    sound: BLOCK_LEVER_CLICK
+    lifeTime: 40
+    mana: 8
+    altarLevel: 1
+    requiredKnowledge:
+    - Light
+    - Darkness
+    splash:
+      radius: 2
+      particalEffect: LARGE_SMOKE:0:150:2
+      sound: ENTITY_BLAZE_SHOOT
+      fireWork: 0:0:0
+      fireWorkLife: 2
+      effects:
+        potionEffects:
+        - blindness:1:200
+    recipe:
+      '0':
+        item: 381
+        amount: 2
+        durability: 0
+      '1':
+        item: 173
+        amount: 1
+        durability: 0
+      '2':
+        item: 376
+        amount: 2
+        durability: 0
+      '3':
+        item: 173
+        amount: 1
+        durability: 0
+      '4':
+        item: 89
+        amount: 4
+        durability: 0
+      '5':
+        item: 173
+        amount: 1
+        durability: 0
+      '6':
+        item: 376
+        amount: 2
+        durability: 0
+      '7':
+        item: 173
+        amount: 1
+        durability: 0
+      '8':
+        item: 381
+        amount: 2
+        durability: 0
+  Dispel:
+    type: self
+    description: Removes any harmful effects from you for 10 mana.
+    cooldown: 100
+    sound: ENTITY_ARROW_HIT
+    mana: 10
+    altarLevel: 1
+    requiredKnowledge:
+    - Contained
+    - Healing
+    selfEffects:
+      clearPotionEffects:
+      - poison:1:1
+      - fire:1:5
+      - BLINDNESS:1:1
+      - wither:1:1
+      - slow:1:1
+      - CONFUSION:1:1
+      - HUNGER:1:1
+      - SLOW_DIGGING:1:1
+      - WEAKNESS:1:1
+    recipe:
+      '0':
+        item: 374
+        amount: 3
+        durability: 0
+      '1':
+        item: 326
+        amount: 1
+        durability: 0
+      '2':
+        item: 374
+        amount: 3
+        durability: 0
+      '3':
+        item: 338
+        amount: 8
+        durability: 0
+      '4':
+        item: 130
+        amount: 1
+        durability: 0
+      '5':
+        item: 338
+        amount: 8
+        durability: 0
+      '6':
+        item: 326
+        amount: 1
+        durability: 0
+      '7':
+        item: 22
+        amount: 4
+        durability: 0
+      '8':
+        item: 326
+        amount: 1
+        durability: 0
+  Heavenly-Flame:
+    type: projectile
+    description: Calls fire from heaven for 25 mana.
+    projectile: beam
+    trailParticalEffect: FLAME:0:25:1
+    beamRange: 30
+    drop: true
+    height: 25
+    cooldown: 100
+    sound: ENTITY_LIGHTNING_THUNDER
+    mana: 25
+    altarLevel: 3
+    requiredKnowledge:
+    - Divine Intervention
+    - Fire Stone
+    splash:
+      radius: 8
+      particalEffect: FLAME:1:500:0
+      sound: ENTITY_BLAZE_SHOOT
+      fireWork: 255:180:10
+      fireWorkLife: 2
+      velocity: 0:1:0
+      effects:
+        damage: 10
+        potionEffects:
+        - fire:1:200
+        - CONFUSION:1:200
+    recipe:
+      '0':
+        item: 378
+        amount: 4
+        durability: 0
+      '1':
+        item: 327
+        amount: 1
+        durability: 0
+      '2':
+        item: 378
+        amount: 4
+        durability: 0
+      '3':
+        item: 377
+        amount: 4
+        durability: 0
+      '4':
+        item: 373
+        amount: 1
+        potion: INCREASE_DAMAGE
+        name: §cJar of Blood
+      '5':
+        item: 377
+        amount: 4
+        durability: 0
+      '6':
+        item: 377
+        amount: 4
+        durability: 0
+      '7':
+        item: 399
+        amount: 1
+        durability: 0
+      '8':
+        item: 377
+        amount: 4
+        durability: 0
+  Poison:
+    type: projectile
+    description: Poisons the target for 5 mana.
+    projectile: beam
+    trailParticalEffect: SLIME:1:5:0.2
+    beamRange: 50
+    cooldown: 30
+    sound: ENTITY_SPIDER_AMBIENT
+    mana: 5
+    altarLevel: 0
+    requiredKnowledge:
+    - Poison
+    splash:
+      radius: 3
+      fireWork: 122:245:111
+      fireWorkLife: 2
+      effects:
+        potionEffects:
+        - poison:1:200
+    recipe:
+      '0':
+        item: 18
+        amount: 2
+        durability: 3
+      '1':
+        item: 18
+        amount: 2
+        durability: 3
+      '2':
+        item: 18
+        amount: 2
+        durability: 3
+      '3':
+        item: 375
+        amount: 1
+        durability: 0
+      '4':
+        item: 373
+        amount: 1
+        potion: POISON
+        name: §aSpider Venom
+      '5':
+        item: 375
+        amount: 1
+        durability: 0
+      '6':
+        item: 375
+        amount: 1
+        durability: 0
+      '7':
+        item: 373
+        amount: 1
+        potion: POISON
+        name: §aSpider Venom
+      '8':
+        item: 375
+        amount: 1
+        durability: 0
+  Shield:
+    type: self
+    description: Shields you for 10 seconds from most damage for 20 mana.
+    cooldown: 100
+    sound: ENTITY_ITEM_BREAK
+    mana: 20
+    altarLevel: 2
+    requiredKnowledge:
+    - Unbreakable
+    selfEffects:
+      potionEffects:
+      - DAMAGE_RESISTANCE:4:200
+    splash:
+      particalEffect: ENCHANT_CRITS:0:200:2
+    recipe:
+      '0':
+        item: 42
+        amount: 1
+        durability: 0
+      '1':
+        item: 442
+        amount: 1
+        durability: 0
+        colour: BLACK
+      '2':
+        item: 42
+        amount: 1
+        durability: 0
+      '3':
+        item: 42
+        amount: 1
+        durability: 0
+      '4':
+        item: 442
+        amount: 1
+        durability: 0
+        colour: BLACK
+      '5':
+        item: 42
+        amount: 1
+        durability: 0
+      '7':
+        item: 42
+        amount: 1
+        durability: 0
+  Fling:
+    type: self
+    spellType: other
+    description: Fling yourself where you are looking for 1 mana.
+    cooldown: 0
+    sound: ENTITY_ENDERDRAGON_FLAP
+    mana: 1
+    altarLevel: 1
+    requiredKnowledge:
+    - Fluffy
+    - Launch
+    selfEffects:
+      velocity: forward:1
+    splash:
+      particalEffect: CLOUD:0:5:0.6
+    recipe:
+      '0':
+        item: 334
+        amount: 1
+        durability: 0
+      '1':
+        item: 351
+        amount: 1
+        durability: 12
+        name: §bEctoplasm
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '2':
+        item: 334
+        amount: 1
+        durability: 0
+      '3':
+        item: 288
+        amount: 1
+        durability: 0
+      '4':
+        item: 370
+        amount: 1
+        durability: 0
+      '5':
+        item: 288
+        amount: 1
+        durability: 0
+      '6':
+        item: 288
+        amount: 1
+        durability: 0
+      '7':
+        item: 288
+        amount: 1
+        durability: 0
+      '8':
+        item: 288
+        amount: 1
+        durability: 0
+  Arrow-Rain:
+    type: projectile
+    description: Makes it rain arrows where you are looking for 35 mana.
+    projectile: arrow
+    critical: true
+    projectileCount: 30
+    projectileInterval: 0
+    randomRadius: 8
+    trailParticalEffect: SMOKE:0:1:0
+    beamRange: 50
+    drop: true
+    height: 25
+    sound: ENTITY_LIGHTNING_THUNDER
+    lifeTime: 9999
+    mana: 25
+    altarLevel: 3
+    requiredKnowledge:
+    - Launch
+    splash:
+      radius: 3
+      effects:
+        damage: 10
+    recipe:
+      '0':
+        item: 262
+        amount: 32
+        durability: 0
+      '1':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §fAir Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '2':
+        item: 262
+        amount: 32
+        durability: 0
+      '3':
+        item: 262
+        amount: 32
+        durability: 0
+      '4':
+        item: 262
+        amount: 32
+        durability: 0
+      '5':
+        item: 262
+        amount: 32
+        durability: 0
+      '6':
+        item: 326
+        amount: 1
+        durability: 0
+      '7':
+        item: 262
+        amount: 32
+        durability: 0
+      '8':
+        item: 326
+        amount: 1
+        durability: 0
+  Confusion:
+    type: projectile
+    description: ConENTITY_TNT_PRIMED and weaken your target for 25 mana.
+    projectile: egg
+    trailParticalEffect: WHITE_SWIRL:0:3:0
+    cooldown: 60
+    sound: ENTITY_ITEM_PICKUP
+    lifeTime: 40
+    mana: 25
+    altarLevel: 2
+    requiredKnowledge:
+    - Darkness
+    - Sight
+    splash:
+      radius: 3
+      particalEffect: ENTITY_GENERIC_SPLASH:3:50:1
+      effects:
+        potionEffects:
+        - CONFUSION:4:500
+        - HUNGER:0:60
+        - SLOW_DIGGING:4:300
+        - WEAKNESS:0:400
+    recipe:
+      '0':
+        item: 376
+        amount: 1
+        durability: 0
+      '1':
+        item: 402
+        amount: 1
+        durability: 0
+        name: §8Earth Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '2':
+        item: 375
+        amount: 1
+        durability: 0
+      '3':
+        item: 35
+        amount: 1
+        durability: 15
+      '4':
+        item: 345
+        amount: 1
+        durability: 0
+      '5':
+        item: 35
+        amount: 1
+        durability: 15
+      '6':
+        item: 35
+        amount: 1
+        durability: 0
+      '7':
+        item: 35
+        amount: 1
+        durability: 15
+      '8':
+        item: 35
+        amount: 1
+        durability: 0
+  Hell-Horde:
+    type: projectile
+    description: Summons a horde of hell bats from the nether for 30 mana.
+    projectile: entity
+    projectileCount: 10
+    projectileInterval: 0
+    randomRadius: 1
+    trailParticalEffect: FLAME:0:3:0.2
+    speed: 3
+    data: bat
+    cooldown: 100
+    sound: ENTITY_ENDERDRAGON_GROWL
+    lifeTime: 80
+    mana: 30
+    altarLevel: 3
+    requiredKnowledge:
+    - Launch
+    - Darkness
+    - Fire Stone
+    selfEffects:
+      potionEffects:
+      - FIRE_RESISTANCE:1:300
+    effects:
+      damage: 2
+      potionEffects:
+      - fire:1:100
+    splash:
+      radius: 1
+      particalEffect: LARGE_SMOKE:0:25:0.5
+      sound: ENTITY_ITEM_PICKUP
+      effects:
+        damage: 4
+        potionEffects:
+        - fire:1:300
+    recipe:
+      '0':
+        item: 351
+        amount: 1
+        durability: 8
+        name: §7Bat Wool
+      '1':
+        item: 289
+        amount: 1
+        durability: 0
+        name: §8Pure Evil
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '2':
+        item: 351
+        amount: 1
+        durability: 8
+        name: §7Bat Wool
+      '3':
+        item: 377
+        amount: 8
+        durability: 0
+      '4':
+        item: 378
+        amount: 1
+        durability: 0
+        name: §cFire Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '5':
+        item: 377
+        amount: 8
+        durability: 0
+      '6':
+        item: 327
+        amount: 1
+        durability: 0
+      '7':
+        item: 351
+        amount: 1
+        durability: 8
+        name: §7Bat Wool
+      '8':
+        item: 327
+        amount: 1
+        durability: 0
+  Corrupt:
+    type: projectile
+    description: Removes all good effects and withers target for 25 mana.
+    projectile: enderpearl
+    trailParticalEffect: WITCH_MAGIC:0:5:0.2
+    speed: 0.5
+    cooldown: 60
+    sound: ENTITY_WITHER_SHOOT
+    lifeTime: 999
+    mana: 25
+    altarLevel: 3
+    requiredKnowledge:
+    - Darkness
+    - Evil
+    splash:
+      radius: 3
+      particalEffect: WITCH_MAGIC:5:100:1
+      sound: AMBIENT_CAVE
+      effects:
+        potionEffects:
+        - wither:0:400
+        clearPotionEffects:
+        - DAMAGE_RESISTANCE:1:1
+        - FIRE_RESISTANCE:1:1
+        - INCREASE_DAMAGE:1:1
+        - INVISIBILITY:1:1
+        - JUMP:1:1
+        - NIGHT_VISION:1:1
+        - REGENERATION:1:1
+        - SPEED:1:1
+        - WATER_BREATHING:1:1
+    recipe:
+      '0':
+        item: 374
+        amount: 4
+        durability: 0
+      '1':
+        item: 335
+        amount: 1
+        durability: 0
+      '2':
+        item: 374
+        amount: 4
+        durability: 0
+      '3':
+        item: 49
+        amount: 2
+        durability: 0
+      '4':
+        item: 49
+        amount: 2
+        durability: 0
+      '5':
+        item: 49
+        amount: 2
+        durability: 0
+      '6':
+        item: 263
+        amount: 4
+        durability: 0
+      '7':
+        item: 397
+        amount: 1
+        durability: 1
+      '8':
+        item: 263
+        amount: 4
+        durability: 0
+  Volley:
+    type: projectile
+    description: Shoots a volley of 8 arrows for 8 mana.
+    projectile: arrow
+    critical: true
+    projectileCount: 8
+    projectileInterval: 0
+    randomRadius: 1
+    trailParticalEffect: ENCHANT_CRITS:0:1:0
+    speed: 2
+    cooldown: 40
+    sound: ENTITY_ARROW_SHOOT
+    lifeTime: 9999
+    mana: 8
+    altarLevel: 0
+    requiredKnowledge:
+    - Launch
+    splash:
+      radius: 1
+      effects:
+        damage: 2
+    recipe:
+      '0':
+        item: 262
+        amount: 4
+        durability: 0
+      '1':
+        item: 262
+        amount: 4
+        durability: 0
+      '2':
+        item: 262
+        amount: 4
+        durability: 0
+      '3':
+        item: 288
+        amount: 1
+        durability: 0
+      '4':
+        item: 33
+        amount: 1
+        durability: 0
+      '5':
+        item: 288
+        amount: 1
+        durability: 0
+      '6':
+        item: 288
+        amount: 1
+        durability: 0
+      '7':
+        item: 173
+        amount: 1
+        durability: 0
+      '8':
+        item: 288
+        amount: 1
+        durability: 0
+  Night-Vision:
+    type: self
+    description: Gives you night vision for 6 mana.
+    cooldown: 60
+    sound: ENTITY_BAT_TAKEOFF
+    mana: 6
+    altarLevel: 1
+    requiredKnowledge:
+    - See Through
+    - Powered
+    selfEffects:
+      potionEffects:
+      - NIGHT_VISION:0:600
+    splash:
+      particalEffect: LARGE_SMOKE:0:25:1
+    recipe:
+      '0':
+        item: 381
+        amount: 1
+        durability: 0
+      '1':
+        item: 351
+        amount: 1
+        durability: 8
+        name: §7Bat Wool
+      '2':
+        item: 381
+        amount: 1
+        durability: 0
+      '3':
+        item: 337
+        amount: 1
+        durability: 0
+        name: §9Water Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 373
+        amount: 1
+        potion: NIGHT_VISION
+      '5':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §fAir Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '6':
+        item: 373
+        amount: 1
+        potion: NIGHT_VISION
+      '7':
+        item: 368
+        amount: 1
+        durability: 0
+      '8':
+        item: 373
+        amount: 1
+        potion: NIGHT_VISION
+  Pillar:
+    type: projectile
+    description: Builds a tall pillar where you are looking for 10 mana.
+    projectile: block
+    projectileCount: 20
+    projectileInterval: 5
+    randomRadius: 0
+    beamRange: 50
+    drop: true
+    fixedDrop: true
+    height: 25
+    data: '1:0'
+    cooldown: 60
+    sound: BLOCK_STONE_BREAK
+    lifeTime: 9999
+    mana: 10
+    altarLevel: 1
+    requiredKnowledge:
+    - Divine Intervention
+    - Shiny Rock
+    recipe:
+      '0':
+        item: 49
+        amount: 2
+        durability: 0
+      '1':
+        item: 130
+        amount: 1
+        durability: 0
+      '2':
+        item: 49
+        amount: 2
+        durability: 0
+      '3':
+        item: 1
+        amount: 8
+        durability: 0
+      '4':
+        item: 1
+        amount: 8
+        durability: 0
+      '5':
+        item: 1
+        amount: 8
+        durability: 0
+      '6':
+        item: 145
+        amount: 1
+        durability: 0
+      '7':
+        item: 57
+        amount: 1
+        durability: 0
+      '8':
+        item: 145
+        amount: 1
+        durability: 0
+  Flare:
+    type: projectile
+    description: Sends a colourful flare into the air for 3 mana.
+    projectile: beam
+    beamRange: 50
+    cooldown: 0
+    sound: ENTITY_FIREWORK_LAUNCH
+    mana: 3
+    altarLevel: 1
+    requiredKnowledge:
+    - Powered
+    splash:
+      fireWork: r:r:r
+      fireWorkLife: 99999
+    recipe:
+      '0':
+        item: 339
+        amount: 1
+        durability: 0
+      '1':
+        item: 402
+        amount: 1
+        durability: 0
+      '2':
+        item: 339
+        amount: 1
+        durability: 0
+      '3':
+        item: 339
+        amount: 1
+        durability: 0
+      '4':
+        item: 385
+        amount: 1
+        durability: 0
+      '5':
+        item: 339
+        amount: 1
+        durability: 0
+      '6':
+        item: 351
+        amount: 1
+        durability: 1
+      '7':
+        item: 351
+        amount: 1
+        durability: 14
+      '8':
+        item: 351
+        amount: 1
+        durability: 11
+  Force:
+    type: projectile
+    spellType: pvp
+    description: Send your target flying for 5 mana.
+    projectile: beam
+    trailParticalEffect: REDSTONE_DUST:1:5:0.2
+    beamRange: 50
+    cooldown: 60
+    sound: ITEM_FLINTANDSTEEL_USE
+    mana: 5
+    altarLevel: 0
+    requiredKnowledge:
+    - Launch
+    - Sight
+    splash:
+      radius: 2
+      particalEffect: REDSTONE_DUST:1:200:2
+      sound: ENTITY_GENERIC_EXPLODE
+      velocity: r-2,2:r0.6,2:r-2,2
+    recipe:
+      '0':
+        item: 35
+        amount: 1
+        durability: 5
+      '1':
+        item: 35
+        amount: 1
+        durability: 4
+      '2':
+        item: 35
+        amount: 1
+        durability: 1
+      '3':
+        item: 35
+        amount: 1
+        durability: 3
+      '4':
+        item: 399
+        amount: 1
+        durability: 0
+      '5':
+        item: 35
+        amount: 1
+        durability: 14
+      '6':
+        item: 35
+        amount: 1
+        durability: 11
+      '7':
+        item: 35
+        amount: 1
+        durability: 10
+      '8':
+        item: 35
+        amount: 1
+        durability: 6
+  Gatling-Gun:
+    type: projectile
+    description: Shoot a stream of arrows for 12 mana.
+    projectile: arrow
+    critical: true
+    projectileCount: 10
+    projectileInterval: 5
+    projectileSound: ENTITY_ARROW_SHOOT
+    trailParticalEffect: SMOKE:0:1:0
+    speed: 2
+    cooldown: 100
+    lifeTime: 999
+    mana: 12
+    altarLevel: 2
+    requiredKnowledge:
+    - Launch
+    splash:
+      radius: 1
+      effects:
+        damage: 4
+    recipe:
+      '1':
+        item: 318
+        amount: 8
+        durability: 0
+      '3':
+        item: 262
+        amount: 64
+        durability: 0
+      '4':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §fAir Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '5':
+        item: 262
+        amount: 64
+        durability: 0
+      '6':
+        item: 33
+        amount: 1
+        durability: 0
+      '7':
+        item: 403
+        amount: 1
+        durability: 0
+        enchantments:
+          '0':
+            enchantment: ARROW_INFINITE
+            level: 1
+      '8':
+        item: 33
+        amount: 1
+        durability: 0
+  Mount:
+    type: touch
+    description: Mount your target like pig for 6 mana.
+    cooldown: 60
+    sound: ENTITY_HORSE_SADDLE
+    mana: 6
+    altarLevel: 1
+    requiredKnowledge:
+    - Rider
+    effects:
+      mount: true
+    splash:
+      particalEffect: CLOUD:0:8:1
+    recipe:
+      '0':
+        item: 334
+        amount: 1
+        durability: 0
+      '1':
+        item: 287
+        amount: 4
+        durability: 0
+      '2':
+        item: 334
+        amount: 1
+        durability: 0
+      '3':
+        item: 334
+        amount: 1
+        durability: 0
+      '4':
+        item: 287
+        amount: 4
+        durability: 0
+      '5':
+        item: 334
+        amount: 1
+        durability: 0
+      '6':
+        item: 265
+        amount: 4
+        durability: 0
+      '7':
+        item: 334
+        amount: 1
+        durability: 0
+      '8':
+        item: 265
+        amount: 4
+        durability: 0
+  Laser:
+    type: projectile
+    description: Shoot a beam of engergy for 8 mana.
+    projectile: beam
+    projectileCount: 10
+    projectileInterval: 2
+    trailParticalEffect: REDSTONE_DUST:0:1:0
+    beamRange: 25
+    cooldown: 90
+    sound: ENTITY_BLAZE_SHOOT
+    mana: 8
+    altarLevel: 2
+    requiredKnowledge:
+    - Powered
+    - Light
+    splash:
+      radius: 1
+      particalEffect: REDSTONE_DUST:0:10:1
+      effects:
+        damage: 2
+        potionEffects:
+        - fire:1:100
+    recipe:
+      '0':
+        item: 42
+        amount: 2
+        durability: 0
+      '1':
+        item: 351
+        amount: 1
+        durability: 12
+        name: §bEctoplasm
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '2':
+        item: 42
+        amount: 2
+        durability: 0
+      '3':
+        item: 42
+        amount: 2
+        durability: 0
+      '4':
+        item: 152
+        amount: 1
+        durability: 0
+      '5':
+        item: 42
+        amount: 2
+        durability: 0
+      '6':
+        item: 264
+        amount: 2
+        durability: 0
+      '7':
+        item: 20
+        amount: 1
+        durability: 0
+      '8':
+        item: 264
+        amount: 2
+        durability: 0
+  Meteor-Shower:
+    type: projectile
+    description: Call death from above for 30 mana.
+    projectile: witherskull
+    projectileCount: 12
+    projectileInterval: 0
+    randomRadius: 6
+    randomDistance: 2
+    trailParticalEffect: FLAME:0:3:0.5
+    beamRange: 50
+    speed: 1
+    drop: true
+    height: 25
+    cooldown: 80
+    sound: ENTITY_LIGHTNING_THUNDER
+    lifeTime: 40
+    mana: 30
+    altarLevel: 3
+    requiredKnowledge:
+    - Divine Intervention
+    - Sight
+    splash:
+      radius: 3
+      particalEffect: LARGE_SMOKE:0:50:1
+      effects:
+        damage: 10
+        potionEffects:
+        - blindness:1:100
+        - weakness:1:500
+    recipe:
+      '0':
+        item: 1
+        amount: 16
+        durability: 0
+      '1':
+        item: 397
+        amount: 1
+        durability: 1
+      '2':
+        item: 1
+        amount: 16
+        durability: 0
+      '3':
+        item: 385
+        amount: 1
+        durability: 0
+      '4':
+        item: 378
+        amount: 1
+        durability: 0
+        name: §cFire Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '5':
+        item: 385
+        amount: 1
+        durability: 0
+      '6':
+        item: 1
+        amount: 16
+        durability: 0
+      '7':
+        item: 362
+        amount: 4
+        durability: 0
+      '8':
+        item: 1
+        amount: 16
+        durability: 0
+  Lift:
+    type: projectile
+    description: Lift blocks into the air for 20 mana.
+    projectile: beam
+    beamRange: 50
+    cooldown: 60
+    sound: ENTITY_LIGHTNING_THUNDER
+    mana: 20
+    altarLevel: 3
+    requiredKnowledge:
+    - Hard Stuff
+    - Launch
+    splash:
+      radius: 4
+      particalEffect: LARGE_SMOKE:0:50:5
+      sound: BLOCK_GRAVEL_BREAK
+      gravityBlocks: true
+      velocity: r-0.2,0.2:r0.3,1:r-0.2,0.2
+    recipe:
+      '0':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §fAir Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '1':
+        item: 38
+        amount: 2
+        durability: 3
+      '2':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §fAir Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '3':
+        item: 38
+        amount: 2
+        durability: 3
+      '4':
+        item: 402
+        amount: 1
+        durability: 0
+        name: §8Earth Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '5':
+        item: 38
+        amount: 2
+        durability: 3
+      '6':
+        item: 289
+        amount: 4
+        durability: 0
+      '7':
+        item: 46
+        amount: 4
+        durability: 0
+      '8':
+        item: 289
+        amount: 4
+        durability: 0
+  Zombie-Horde:
+    type: projectile
+    description: Spawn a horde of zombies where you are looking for 20 mana.
+    projectile: entity
+    projectileCount: 6
+    projectileInterval: 0
+    randomRadius: 3
+    randomDistance: 1
+    beamRange: 50
+    drop: true
+    fixedDrop: false
+    height: 2
+    data: ZOMBIE
+    cooldown: 60
+    sound: ENTITY_ZOMBIE_HURT
+    mana: 20
+    altarLevel: 3
+    requiredKnowledge:
+    - Tear of Mob
+    - Darkness
+    recipe:
+      '0':
+        item: 367
+        amount: 4
+        durability: 0
+      '1':
+        item: 367
+        amount: 4
+        durability: 0
+      '2':
+        item: 367
+        amount: 4
+        durability: 0
+      '3':
+        item: 367
+        amount: 4
+        durability: 0
+      '4':
+        item: 88
+        amount: 4
+        durability: 0
+      '5':
+        item: 367
+        amount: 4
+        durability: 0
+      '6':
+        item: 88
+        amount: 4
+        durability: 0
+      '7':
+        item: 351
+        amount: 1
+        durability: 11
+        name: §eSoul
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '8':
+        item: 88
+        amount: 4
+        durability: 0
+  Magic-Missile:
+    type: projectile
+    description: Shoot a magic missile that follows its target for 8 mana.
+    projectile: egg
+    projectileCount: 1
+    homing: true
+    trailParticalEffect: EXPLODE:0:1:0
+    cooldown: 60
+    sound: ENTITY_WITHER_SHOOT
+    speed: 0.4
+    lifeTime: 999
+    mana: 8
+    altarLevel: 2
+    requiredKnowledge:
+    - The Smell Of Magic
+    effects:
+      damage: 2
+    splash:
+      radius: 2
+      explode: true
+      effects:
+        damage: 4
+        potionEffects:
+        - poison:1:100
+    recipe:
+      '1':
+        item: 381
+        amount: 1
+        durability: 0
+      '3':
+        item: 288
+        amount: 3
+        durability: 0
+      '4':
+        item: 344
+        amount: 4
+        durability: 0
+      '5':
+        item: 288
+        amount: 3
+        durability: 0
+      '7':
+        item: 289
+        amount: 6
+        durability: 0
+  Peek:
+    type: projectile
+    description: Make the target blocks look like BLOCK_GLASS_BREAK in your eyes for 10 mana.
+    projectile: beam
+    beamRange: 50
+    cooldown: 60
+    sound: ENTITY_ITEM_PICKUP
+    mana: 10
+    altarLevel: 1
+    requiredKnowledge:
+    - See Through
+    selfEffects:
+      potionEffects:
+      - slow:4:100
+    splash:
+      radius: 3
+      sound: BLOCK_GLASS_BREAK
+      changeBlock: '20:0:5'
+    recipe:
+      '0':
+        item: 80
+        amount: 2
+        durability: 0
+      '1':
+        item: 351
+        amount: 1
+        durability: 11
+        name: §eSoul
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '2':
+        item: 80
+        amount: 2
+        durability: 0
+      '3':
+        item: 80
+        amount: 2
+        durability: 0
+      '4':
+        item: 169
+        amount: 1
+        durability: 0
+      '5':
+        item: 80
+        amount: 2
+        durability: 0
+      '6':
+        item: 20
+        amount: 2
+        durability: 0
+      '7':
+        item: 20
+        amount: 2
+        durability: 0
+      '8':
+        item: 20
+        amount: 2
+        durability: 0
+  Rainbow-Bridge:
+    type: projectile
+    description: Shoot out a rainbow that leave a temporary bridge in your eyes for 14 mana.
+    trailParticalEffect: REDSTONE_DUST:1:5:0.2
+    projectile: egg
+    speed: 0.8
+    cooldown: 60
+    sound: ENTITY_FIREWORK_TWINKLE
+    lifeTime: 999
+    mana: 15
+    altarLevel: 3
+    requiredKnowledge:
+    - Light
+    effects:
+      changeBlock: '20:0:20'
+    recipe:
+      '0':
+        item: 351
+        amount: 2
+        durability: 1
+      '1':
+        item: 351
+        amount: 2
+        durability: 14
+      '2':
+        item: 351
+        amount: 2
+        durability: 11
+      '3':
+        item: 351
+        amount: 2
+        durability: 13
+      '4':
+        item: 20
+        amount: 8
+        durability: 0
+      '5':
+        item: 351
+        amount: 2
+        durability: 10
+      '6':
+        item: 351
+        amount: 2
+        durability: 4
+      '7':
+        item: 20
+        amount: 8
+        durability: 0
+      '8':
+        item: 351
+        amount: 2
+        durability: 0
+  Mark:
+    type: projectile
+    description: Mark a location for use in recall spells for 5 mana.
+    projectile: beam
+    trailParticalEffect: SMOKE:0:1:0.2
+    beamRange: 50
+    cooldown: 60
+    sound: BLOCK_WOOD_BREAK
+    mana: 5
+    altarLevel: 2
+    requiredKnowledge:
+    - Saved
+    splash:
+      mark: true
+    recipe:
+      '0':
+        item: 35
+        amount: 1
+        durability: 14
+      '1':
+        item: 12
+        amount: 1
+        durability: 0
+      '2':
+        item: 35
+        amount: 1
+        durability: 14
+      '3':
+        item: 12
+        amount: 1
+        durability: 0
+      '4':
+        item: 35
+        amount: 1
+        durability: 14
+      '5':
+        item: 12
+        amount: 1
+        durability: 0
+      '6':
+        item: 35
+        amount: 1
+        durability: 14
+      '7':
+        item: 373
+        amount: 1
+        potion: INCREASE_DAMAGE
+        name: §cJar of Blood
+      '8':
+        item: 35
+        amount: 1
+        durability: 14
+  Recall-Self:
+    type: self
+    description: Recall yourself to a marked location for 10 mana.
+    cooldown: 60
+    sound: ENTITY_ENDERMEN_TELEPORT
+    mana: 10
+    altarLevel: 1
+    requiredKnowledge:
+    - Sight
+    selfEffects:
+      recall: true
+    splash:
+      particalEffect: ENDER:1:50:0
+    recipe:
+      '0':
+        item: 351
+        amount: 1
+        durability: 12
+        name: §bEctoplasm
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '1':
+        item: 368
+        amount: 1
+        durability: 0
+      '2':
+        item: 351
+        amount: 1
+        durability: 12
+        name: §bEctoplasm
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '3':
+        item: 368
+        amount: 1
+        durability: 0
+      '4':
+        item: 362
+        amount: 1
+        durability: 0
+        name: §5Ender Fragments
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '5':
+        item: 368
+        amount: 1
+        durability: 0
+      '6':
+        item: 368
+        amount: 1
+        durability: 0
+      '7':
+        item: 368
+        amount: 1
+        durability: 0
+      '8':
+        item: 368
+        amount: 1
+        durability: 0
+  Recall-Other:
+    type: projectile
+    description: Recall your target to a marked location for 20 mana.
+    projectile: beam
+    trailParticalEffect: WITCH_MAGIC:0:1:0.2
+    beamRange: 50
+    cooldown: 3
+    sound: ENTITY_ARROW_SHOOT
+    mana: 20
+    altarLevel: 3
+    requiredKnowledge:
+    - Sight
+    splash:
+      radius: 2
+      particalEffect: ENDER:1:50:0
+      sound: ENTITY_ENDERMEN_TELEPORT
+      recall: true
+    recipe:
+      '0':
+        item: 368
+        amount: 1
+        durability: 0
+      '1':
+        item: 368
+        amount: 1
+        durability: 0
+      '2':
+        item: 368
+        amount: 1
+        durability: 0
+      '3':
+        item: 362
+        amount: 1
+        durability: 0
+        name: §5Ender Fragments
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '4':
+        item: 351
+        amount: 1
+        durability: 12
+        name: §bEctoplasm
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '5':
+        item: 362
+        amount: 1
+        durability: 0
+        name: §5Ender Fragments
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '6':
+        item: 368
+        amount: 1
+        durability: 0
+      '7':
+        item: 368
+        amount: 1
+        durability: 0
+      '8':
+        item: 368
+        amount: 1
+        durability: 0
+  Work-Bench:
+    type: projectile
+    description: Puts a work bench where you are looking for 10 mana.
+    projectile: block
+    projectileCount: 1
+    randomRadius: 0
+    beamRange: 50
+    drop: true
+    fixedDrop: true
+    height: 2
+    data: '58:0'
+    cooldown: 60
+    sound: BLOCK_WOOD_BREAK
+    lifeTime: 9999
+    mana: 10
+    altarLevel: 1
+    requiredKnowledge:
+    - Saved
+    recipe:
+      '0':
+        item: 58
+        amount: 1
+        durability: 0
+      '1':
+        item: 58
+        amount: 1
+        durability: 0
+      '2':
+        item: 58
+        amount: 1
+        durability: 0
+      '3':
+        item: 58
+        amount: 1
+        durability: 0
+      '4':
+        item: 351
+        amount: 1
+        durability: 11
+        name: §eSoul
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '5':
+        item: 58
+        amount: 1
+        durability: 0
+      '6':
+        item: 58
+        amount: 1
+        durability: 0
+      '7':
+        item: 58
+        amount: 1
+        durability: 0
+      '8':
+        item: 58
+        amount: 1
+        durability: 0
+  Cobbler:
+    type: projectile
+    description: Launches cobblestone for 1 mana.
+    projectile: block
+    projectileCount: 1
+    randomRadius: 0
+    data: '4:0'
+    cooldown: 5
+    sound: BLOCK_STONE_BREAK
+    lifeTime: 9999
+    mana: 1
+    altarLevel: 1
+    requiredKnowledge:
+    - Launch
+    recipe:
+      '0':
+        item: 4
+        amount: 64
+        durability: 0
+      '1':
+        item: 4
+        amount: 64
+        durability: 0
+      '2':
+        item: 4
+        amount: 64
+        durability: 0
+      '3':
+        item: 4
+        amount: 64
+        durability: 0
+      '4':
+        item: 130
+        amount: 1
+        durability: 0
+      '5':
+        item: 4
+        amount: 64
+        durability: 0
+      '6':
+        item: 4
+        amount: 64
+        durability: 0
+      '7':
+        item: 4
+        amount: 64
+        durability: 0
+      '8':
+        item: 4
+        amount: 64
+        durability: 0
+  Erupt:
+    type: projectile
+    description: Send your target flying for 5 mana.
+    projectile: egg
+    trailParticalEffect: FLAME:0:1:0.2
+    beamRange: 50
+    projectileCount: 50
+    randomRadius: 1
+    drop: true
+    height: 2
+    data: '351:14'
+    projectileInterval: 0.1
+    cooldown: 60
+    sound: ITEM_FLINTANDSTEEL_USE
+    mana: 5
+    altarLevel: 3
+    requiredKnowledge:
+    - Launch
+    - Creeper Anatomy
+    splash:
+      explode: true
+      radius: 1
+      sound: ENTITY_GENERIC_EXPLODE
+      velocity: r-1,1:r0.4,1:r-1,1
+      effects:
+        damage: 2
+        potionEffects:
+        - fire:1:100
+    recipe:
+      '0':
+        item: 344
+        amount: 16
+        durability: 0
+      '1':
+        item: 46
+        amount: 2
+        durability: 0
+      '2':
+        item: 344
+        amount: 16
+        durability: 0
+      '3':
+        item: 46
+        amount: 2
+        durability: 0
+      '4':
+        item: 344
+        amount: 16
+        durability: 0
+      '5':
+        item: 46
+        amount: 2
+        durability: 0
+      '6':
+        item: 344
+        amount: 16
+        durability: 0
+      '7':
+        item: 46
+        amount: 2
+        durability: 0
+      '8':
+        item: 344
+        amount: 16
+        durability: 0
+  Avis:
+    type: projectile
+    description: Summons a flock of chickens for 30 mana.
+    projectile: entity
+    projectileCount: 6
+    projectileInterval: 0
+    randomRadius: 1
+    speed: 1
+    data: chicken
+    cooldown: 100
+    sound: ENTITY_CHICKEN_HURT
+    mana: 30
+    altarLevel: 3
+    requiredKnowledge:
+    - Launch
+    - Light
+    recipe:
+      '0':
+        item: 288
+        amount: 2
+        durability: 0
+      '1':
+        item: 288
+        amount: 2
+        durability: 0
+      '2':
+        item: 288
+        amount: 2
+        durability: 0
+      '3':
+        item: 344
+        amount: 16
+        durability: 0
+      '4':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §fAir Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '5':
+        item: 344
+        amount: 16
+        durability: 0
+      '6':
+        item: 288
+        amount: 2
+        durability: 0
+      '7':
+        item: 344
+        amount: 16
+        durability: 0
+      '8':
+        item: 288
+        amount: 2
+        durability: 0
+  Snow-Blast:
+    type: projectile
+    description: Causes snowballs to pelt themselves at the target for 6 mana
+    projectile: snowball
+    projectileCount: 12
+    randomRadius: 1.5
+    speed: 1
+    cooldown: 40
+    sound: ENTITY_ARROW_SHOOT
+    mana: 6
+    altarLevel: 1
+    requiredKnowledge:
+    - Launch
+    - Ice Cold
+    recipe:
+      '0':
+        item: 332
+        amount: 2
+        durability: 0
+      '1':
+        item: 331
+        amount: 2
+        durability: 0
+      '2':
+        item: 332
+        amount: 2
+        durability: 0
+      '3':
+        item: 289
+        amount: 2
+        durability: 0
+      '4':
+        item: 332
+        amount: 2
+        durability: 0
+      '5':
+        item: 289
+        amount: 2
+        durability: 0
+      '6':
+        item: 332
+        amount: 2
+        durability: 0
+      '7':
+        item: 289
+        amount: 2
+        durability: 0
+      '8':
+        item: 332
+        amount: 2
+        durability: 0
+  Sparks:
+    type: projectile
+    description: Shoots green sparks that deal damage for 25 mana
+    projectile: item
+    trailParticalEffect: HAPPY:1:3:0.3
+    data: '351:10'
+    cooldown: 40
+    sound: ITEM_FLINTANDSTEEL_USE
+    lifeTime: 20
+    speed: 1
+    mana: 25
+    altarLevel: 3
+    requiredKnowledge:
+    - Powered
+    - Light
+    splash:
+      radius: 3
+      particalEffect: HAPPY:1:25:2
+      sound: ENTITY_FIREWORK_TWINKLE
+      effects:
+        damage: 12
+    recipe:
+      '0':
+        item: 81
+        amount: 3
+        durability: 0
+      '1':
+        item: 152
+        amount: 2
+        durability: 0
+      '2':
+        item: 81
+        amount: 3
+        durability: 0
+      '3':
+        item: 152
+        amount: 2
+        durability: 0
+      '4':
+        item: 351
+        amount: 1
+        durability: 11
+        name: §eSoul
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '5':
+        item: 152
+        amount: 2
+        durability: 0
+      '6':
+        item: 81
+        amount: 3
+        durability: 0
+      '7':
+        item: 152
+        amount: 2
+        durability: 0
+      '8':
+        item: 81
+        amount: 3
+        durability: 0
+  Herbifors:
+    type: projectile
+    description: Makes flowers for 15 mana.
+    projectile: block
+    data: '37:0'
+    projectileCount: 6
+    projectileInterval: 0
+    randomRadius: 3
+    randomDistance: 1
+    beamRange: 50
+    drop: true
+    fixedDrop: false
+    height: 1
+    cooldown: 60
+    sound: BLOCK_GRASS_BREAK
+    mana: 15
+    altarLevel: 2
+    requiredKnowledge:
+    - Nature
+    recipe:
+      '0':
+        item: 37
+        amount: 2
+        durability: 0
+      '1':
+        item: 37
+        amount: 2
+        durability: 0
+      '2':
+        item: 37
+        amount: 2
+        durability: 0
+      '3':
+        item: 3
+        amount: 10
+        durability: 0
+      '4':
+        item: 3
+        amount: 10
+        durability: 0
+      '5':
+        item: 3
+        amount: 10
+        durability: 0
+      '6':
+        item: 351
+        amount: 16
+        durability: 15
+      '7':
+        item: 326
+        amount: 1
+        durability: 0
+      '8':
+        item: 351
+        amount: 16
+        durability: 15
+  Summon-Sword:
+    type: projectile
+    description: Summons a stone sword for 5 mana.
+    projectile: item
+    allowItemPickup: true
+    data: '272:0'
+    projectileCount: 1
+    beamRange: 50
+    drop: true
+    fixedDrop: false
+    height: 1
+    cooldown: 60
+    sound: ENTITY_ITEM_PICKUP
+    mana: 5
+    altarLevel: 0
+    requiredKnowledge:
+    - Stone Cold
+    recipe:
+      '0':
+        item: 272
+        amount: 1
+        durability: 0
+      '1':
+        item: 4
+        amount: 16
+        durability: 0
+      '2':
+        item: 272
+        amount: 1
+        durability: 0
+      '3':
+        item: 4
+        amount: 16
+        durability: 0
+      '4':
+        item: 280
+        amount: 32
+        durability: 0
+      '5':
+        item: 4
+        amount: 16
+        durability: 0
+      '6':
+        item: 272
+        amount: 1
+        durability: 0
+      '7':
+        item: 4
+        amount: 16
+        durability: 0
+      '8':
+        item: 272
+        amount: 1
+        durability: 0
+  Quicksilver:
+    type: self
+    description: Gives you speed for 10 mana.
+    mana: 10
+    altarLevel: 2
+    requiredKnowledge:
+    - Darkness
+    - Evil
+    selfEffects:
+      potionEffects:
+      - SPEED:1:600
+    recipe:
+      '0':
+        item: 406
+        amount: 5
+        durability: 0
+      '1':
+        item: 288
+        amount: 5
+        durability: 0
+      '2':
+        item: 406
+        amount: 5
+        durability: 0
+      '3':
+        item: 288
+        amount: 5
+        durability: 0
+      '4':
+        item: 406
+        amount: 5
+        durability: 0
+      '5':
+        item: 288
+        amount: 5
+        durability: 0
+      '6':
+        item: 79
+        amount: 2
+        durability: 0
+      '7':
+        item: 313
+        amount: 1
+        durability: 0
+      '8':
+        item: 79
+        amount: 2
+        durability: 0
+  Fish-Breath:
+    type: projectile
+    description: Gives anyone in the splash fish breath for 15 mana.
+    projectile: item
+    trailParticalEffect: WATER_DROP:1:5:0.3
+    data: '351:12'
+    projectileCount: 1
+    cooldown: 40
+    sound: BLOCK_BREWING_STAND_BREW
+    speed: 1.0
+    lifeTime: 20
+    mana: 15
+    altarLevel: 2
+    requiredKnowledge:
+    - Contained
+    - Wet
+    splash:
+      radius: 3
+      particalEffect: BUBBLES:1:5:0.3
+      sound: ENTITY_PLAYER_SPLASH
+      effects:
+        potionEffects:
+        - WATER_BREATHING:0:3600
+    recipe:
+      '1':
+        item: 326
+        amount: 1
+        durability: 0
+      '3':
+        item: 373
+        amount: 1
+        potion: HEAL
+      '4':
+        item: 322
+        amount: 1
+        durability: 0
+      '5':
+        item: 373
+        amount: 1
+        potion: HEAL
+      '6':
+        item: 38
+        amount: 1
+        durability: 4
+      '7':
+        item: 37
+        amount: 1
+        durability: 0
+      '8':
+        item: 38
+        amount: 1
+        durability: 1
+  Ice-Tomb:
+    type: projectile
+    description: Surround your enemy in ice for 50 mana.
+    projectile: block
+    randomRadius: 3
+    projectileCount: 12
+    projectileInterval: 0.3
+    beamRange: 8
+    drop: true
+    height: 9
+    data: '79:0'
+    cooldown: 30
+    sound: ENTITY_GENERIC_SPLASH
+    lifeTime: 999
+    mana: 50
+    altarLevel: 3
+    requiredKnowledge:
+    - Contained
+    splash:
+      radius: 3
+      particalEffect: ENTITY_GENERIC_SPLASH:3:50:1
+      effects:
+        potionEffects:
+        - SLOW_DIGGING:3:300
+        - WEAKNESS:1:400
+        - BLINDNESS:1:200
+        - SLOW:4:100
+    recipe:
+      '0':
+        item: 79
+        amount: 4
+        durability: 0
+      '1':
+        item: 174
+        amount: 2
+        durability: 0
+      '2':
+        item: 79
+        amount: 4
+        durability: 0
+      '3':
+        item: 174
+        amount: 2
+        durability: 0
+      '4':
+        item: 368
+        amount: 1
+        durability: 0
+      '5':
+        item: 174
+        amount: 2
+        durability: 0
+      '6':
+        item: 79
+        amount: 4
+        durability: 0
+      '7':
+        item: 174
+        amount: 2
+        durability: 0
+      '8':
+        item: 79
+        amount: 4
+        durability: 0
+  Levitate:
+    type: projectile
+    description: Levitates anyone in the splash for 30 mana.
+    projectile: item
+    trailParticalEffect: CLOUD:0:5:0.3
+    data: '437:0'
+    projectileCount: 1
+    cooldown: 40
+    sound: BLOCK_BREWING_STAND_BREW
+    speed: 1.0
+    lifeTime: 20
+    mana: 30
+    altarLevel: 2
+    requiredKnowledge:
+    - Dragon's Breath
+    - Fluffy
+    splash:
+      radius: 3
+      particalEffect: CLOUD:0:30:3
+      sound: ENTITY_ENDERDRAGON_FLAP
+      effects:
+        potionEffects:
+        - LEVITATION:0:200
+    recipe:
+      '0':
+        item: 288
+        amount: 1
+        durability: 0
+      '1':
+        item: 436
+        amount: 1
+        durability: 0
+        name: §cBowl of dragon's blood
+        enchantments:
+          '0':
+            enchantment: THORNS
+            level: 1
+      '2':
+        item: 288
+        amount: 1
+        durability: 0
+      '3':
+        item: 437
+        amount: 3
+        durability: 0
+      '4':
+        item: 332
+        amount: 1
+        durability: 0
+        name: §fAir Orb
+        enchantments:
+          '0':
+            enchantment: DAMAGE_ALL
+            level: 1
+      '5':
+        item: 437
+        amount: 3
+        durability: 0
+      '6':
+        item: 288
+        amount: 1
+        durability: 0
+      '7':
+        item: 414
+        amount: 3
+        durability: 0
+      '8':
+        item: 288
+        amount: 1
+        durability: 0
